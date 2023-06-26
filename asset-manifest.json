@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MikeArmando/Fit-And-Casual.git/static/css/main.c5c92e8f.css",
+    "main.js": "/MikeArmando/Fit-And-Casual.git/static/js/main.38cf209d.js",
+    "static/js/787.7b445511.chunk.js": "/MikeArmando/Fit-And-Casual.git/static/js/787.7b445511.chunk.js",
+    "static/media/shttefan-Q--oPI42ArQ-unsplash.jpg": "/MikeArmando/Fit-And-Casual.git/static/media/shttefan-Q--oPI42ArQ-unsplash.3b3abaa36e014c3627fb.jpg",
+    "static/media/girl-intro.avif": "/MikeArmando/Fit-And-Casual.git/static/media/girl-intro.15d3a482b967272aae4e.avif",
+    "static/media/icon-user.png": "/MikeArmando/Fit-And-Casual.git/static/media/icon-user.8a1c3856fe72c3daf63f.png",
+    "static/media/icon-cart.png": "/MikeArmando/Fit-And-Casual.git/static/media/icon-cart.837ed377484a99297d4b.png",
+    "static/media/icon-fav.png": "/MikeArmando/Fit-And-Casual.git/static/media/icon-fav.2d76b7035982a18ac2f3.png",
+    "index.html": "/MikeArmando/Fit-And-Casual.git/index.html",
+    "main.c5c92e8f.css.map": "/MikeArmando/Fit-And-Casual.git/static/css/main.c5c92e8f.css.map",
+    "main.38cf209d.js.map": "/MikeArmando/Fit-And-Casual.git/static/js/main.38cf209d.js.map",
+    "787.7b445511.chunk.js.map": "/MikeArmando/Fit-And-Casual.git/static/js/787.7b445511.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5c92e8f.css",
+    "static/js/main.38cf209d.js"
+  ]
+}
