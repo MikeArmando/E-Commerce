@@ -1,0 +1,82 @@
+.account-body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-body div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15rem 0rem;
+}
+
+.account-body div h1 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+.account-body div p {
+    margin: .5rem;
+    margin-bottom: 1rem;
+    font-size: small;
+}
+
+.account-body div input {
+    border: .1px solid rgb(156, 156, 156);
+    margin: .5rem;
+    height: 2rem;
+    width: 22rem;
+    padding: .2rem;
+}
+
+.account-body div button {
+    background-color: black;
+    border: 1px solid black;
+    height: 2.8rem;
+    width: 22.5rem;
+    color: white;
+    transition: all .5s ease;
+}
+
+.account-body div .signinLink {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    color: white;
+    padding: .8rem;
+    margin: 0;
+    transition: all .5s ease;
+}
+
+.account-body div button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.account-body div .signinLink:hover {
+    color: rgb(0, 0, 0);
+}
+
+.account-body div p {
+    margin-top: 1.5rem;
+    color: rgb(99, 99, 99);
+}
+
+.createOneLink {
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+.createOneLink {
+    text-decoration: none;
+    color: black;
+}
+
+.createOneLink:hover {
+    text-decoration: underline;
+}
