@@ -7,9 +7,9 @@ import { Link, NavLink } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <nav>
-            <label><a href="/">Fit & Casual</a></label>
+            <label><Link to="/">Fit & Casual</Link></label>
             <ul className="navbar-ul">
-                <li><NavLink to="/men" classNameName="le" href="">Men</NavLink>
+                <li><Link to="/men" classNameName="le" href="">Men</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="">Collection</a></li>
                         <li className="sub-li"><a href="">Simpsons</a></li>

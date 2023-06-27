@@ -11,19 +11,20 @@ const App = () => {
   return (
     <div className="App">
 
-      <><Navbar /></>
-      <><Home /></>
-
       <>
+        <><Navbar /></>
+        <><Home /></>
+
         <Routes>
           <Route index element={<Home />} />
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />
           <Route path="/account" element={<Account />} />
         </Routes>
+
+        <><Footer /></>
       </>
 
-      <><Footer /></>
 
     </div>
   );
