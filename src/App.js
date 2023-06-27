@@ -12,6 +12,7 @@ const App = () => {
     <div className="App">
 
       <><Navbar /></>
+      <><Home /></>
 
       <>
         <Routes>
