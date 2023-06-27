@@ -10,10 +10,10 @@ import { Account } from './components/pages/account/account'
 const App = () => {
   return (
     <div className="App">
+      
+      <><Navbar /></>
       <><Home /></>
-
       <>
-        <><Navbar /></>
 
         <Routes>
           <Route index element={<Home />} />
