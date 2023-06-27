@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/navbar/navbar'
 import { Footer } from './components/footer/footer'
 import { Home } from './components/pages/home/home'
@@ -10,10 +10,10 @@ import { Account } from './components/pages/account/account'
 const App = () => {
   return (
     <div className="App">
+      <><Home /></>
 
       <>
         <><Navbar /></>
-        <><Home /></>
 
         <Routes>
           <Route index element={<Home />} />
