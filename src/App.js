@@ -10,21 +10,19 @@ import { Account } from './components/pages/account/account'
 const App = () => {
   return (
     <div className="App">
-      
-      <><Navbar /></>
-      <><Home /></>
-      <>
 
-        <Routes>
+      <><Navbar /></>
+
+      <>
+        <Routes path="/" element={Home}>
           <Route index element={<Home />} />
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />
           <Route path="/account" element={<Account />} />
         </Routes>
-
-        <><Footer /></>
       </>
 
+      <><Footer /></>
 
     </div>
   );

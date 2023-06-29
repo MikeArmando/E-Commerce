@@ -2,14 +2,14 @@ import './navbar.css'
 import user from '../.././/assets/img/icon-user.png'
 import fav from '../.././/assets/img/icon-fav.png'
 import cart from '../.././/assets/img/icon-cart.png'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
         <nav>
             <label><Link to="/">Fit & Casual</Link></label>
             <ul className="navbar-ul">
-                <li><Link to="/men" classNameName="le">Men</Link>
+                <li><Link to="/men" className="le">Men</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Collection</a></li>
                         <li className="sub-li"><a href="#!">Simpsons</a></li>
@@ -39,7 +39,7 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Socks</a></li>
                     </ul>
                 </li>
-                <li><NavLink classNameName="le" to="/women">Women</NavLink>
+                <li><Link className="le" to="/women">Women</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="/content/women/collection/collection.html">Collection</a></li>
                         <li className="sub-li"><a href="#!">Monster High</a></li>
@@ -106,7 +106,7 @@ export const Navbar = () => {
                     </ul>
                 </li>
                 <li><a className="le" href="#!">About</a></li>
-                <NavLink to="/account"><img className="nav-icon1" src={user} alt=""></img></NavLink>
+                <Link to="/account"><img className="nav-icon1" src={user} alt=""></img></Link>
                 <a href="#!"><img className="nav-icon1" src={fav} alt=""></img></a>
                 <a href="#!"><img className="nav-icon1" src={cart} alt=""></img></a>
             </ul>
