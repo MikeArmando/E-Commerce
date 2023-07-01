@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <nav>
-            <label><Link to="/">Fit & Casual</Link></label>
+            <label><Link to="/Fit-And-Casual">Fit & Casual</Link></label>
             <ul className="navbar-ul">
                 <li><Link to="/men" className="le">Men</Link>
                     <ul className="sub-menu-box">
