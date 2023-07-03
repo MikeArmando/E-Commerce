@@ -11,7 +11,7 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-
+            
             <section id="view-products" className="special-background">
                 <h1>New Clothes, New Passion.</h1>
                 <div className="special-box">
