@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Fit-And-Casual/static/css/main.84a1c715.css",
-    "main.js": "/Fit-And-Casual/static/js/main.d84dfbf0.js",
-    "static/js/787.7b445511.chunk.js": "/Fit-And-Casual/static/js/787.7b445511.chunk.js",
-    "static/media/shttefan-Q--oPI42ArQ-unsplash.jpg": "/Fit-And-Casual/static/media/shttefan-Q--oPI42ArQ-unsplash.3b3abaa36e014c3627fb.jpg",
-    "static/media/girl-intro.avif": "/Fit-And-Casual/static/media/girl-intro.15d3a482b967272aae4e.avif",
-    "static/media/icon-user.png": "/Fit-And-Casual/static/media/icon-user.8a1c3856fe72c3daf63f.png",
-    "static/media/icon-cart.png": "/Fit-And-Casual/static/media/icon-cart.837ed377484a99297d4b.png",
-    "static/media/icon-fav.png": "/Fit-And-Casual/static/media/icon-fav.2d76b7035982a18ac2f3.png",
-    "index.html": "/Fit-And-Casual/index.html",
-    "main.84a1c715.css.map": "/Fit-And-Casual/static/css/main.84a1c715.css.map",
-    "main.d84dfbf0.js.map": "/Fit-And-Casual/static/js/main.d84dfbf0.js.map",
-    "787.7b445511.chunk.js.map": "/Fit-And-Casual/static/js/787.7b445511.chunk.js.map"
+    "main.css": "/E-Commerce/static/css/main.4b1fc6a8.css",
+    "main.js": "/E-Commerce/static/js/main.17bb55c4.js",
+    "static/js/787.7b445511.chunk.js": "/E-Commerce/static/js/787.7b445511.chunk.js",
+    "static/media/shttefan-Q--oPI42ArQ-unsplash.jpg": "/E-Commerce/static/media/shttefan-Q--oPI42ArQ-unsplash.3b3abaa36e014c3627fb.jpg",
+    "static/media/girl-intro.avif": "/E-Commerce/static/media/girl-intro.15d3a482b967272aae4e.avif",
+    "static/media/icon-user.png": "/E-Commerce/static/media/icon-user.8a1c3856fe72c3daf63f.png",
+    "static/media/icon-cart.png": "/E-Commerce/static/media/icon-cart.837ed377484a99297d4b.png",
+    "static/media/icon-fav.png": "/E-Commerce/static/media/icon-fav.2d76b7035982a18ac2f3.png",
+    "index.html": "/E-Commerce/index.html",
+    "main.4b1fc6a8.css.map": "/E-Commerce/static/css/main.4b1fc6a8.css.map",
+    "main.17bb55c4.js.map": "/E-Commerce/static/js/main.17bb55c4.js.map",
+    "787.7b445511.chunk.js.map": "/E-Commerce/static/js/787.7b445511.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84a1c715.css",
-    "static/js/main.d84dfbf0.js"
+    "static/css/main.4b1fc6a8.css",
+    "static/js/main.17bb55c4.js"
   ]
 }
