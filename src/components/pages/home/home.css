@@ -17,8 +17,9 @@
 }
 
 .intro-text {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: .5rem;
     font-size: 4.2rem;
     color: rgb(255, 255, 255);
@@ -32,7 +33,7 @@
 }
 
 .intro-btn-box a:hover {
-    color: rgb(197, 197, 197);
+    color: rgb(220, 220, 220);
 }
 
 @media (max-width: 400px) {
@@ -74,6 +75,7 @@
 }
 
 .special-background h1 {
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -195,171 +197,7 @@
     text-decoration: underline;
 }
 
-
-@media (max-width: 1220px) {
-    .special-background {
-        background-color: white;
-    }
-
-    .special-background h1 {
-        display: flex;
-        justify-content: center;
-        margin: 2.7rem;
-        font-size: 1.7rem;
-        font-weight: 200;
-    }
-
-    .special-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .zoom img {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 37rem;
-        width: 100%;
-        transition: transform 2s ease-in-out;
-        margin: 0rem 1rem;
-        padding: 0;
-        margin: 0;
-    }
-
-    .zoom img:hover {
-        transform: scale(1.2);
-    }
-
-    .zoom {
-        overflow: hidden;
-        margin: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .zoom .item1 {
-        overflow: hidden;
-        margin: 1rem;
-    }
-
-    .zoom .item2 {
-        overflow: hidden;
-        margin: 1rem;
-    }
-
-    .zoom .item3 {
-        overflow: hidden;
-        margin: 1rem;
-    }
-
-    .btnall {
-        text-decoration: none;
-        letter-spacing: .2rem;
-        text-transform: uppercase;
-        color: black;
-    }
-
-    .btnall:hover {
-        text-decoration: underline;
-    }
-}
-
-@media (max-width: 1070px) {
-    .special-background {
-        display: none;
-        background-color: white;
-    }
-
-    .special-backgroundM {
-        display: block;
-        background-color: white;
-    }
-
-    .special-backgroundM h1 {
-        display: flex;
-        justify-content: center;
-        margin: 2.7rem;
-        font-size: 1.7rem;
-        font-weight: 200;
-    }
-
-    .special-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .zoom img {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 40rem;
-        width: 100%;
-        transition: transform 2s ease-in-out;
-        margin: 0rem 1rem;
-        padding: 0;
-        margin: 0;
-    }
-
-    .zoom img:hover {
-        transform: scale(1.2);
-    }
-
-    .zoom {
-        overflow: hidden;
-        margin: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .zoom .item1 {
-        overflow: hidden;
-        margin: 1rem;
-    }
-
-    .zoom .item2 {
-        overflow: hidden;
-        margin: 1rem;
-    }
-
-    .zoom .item3 {
-        overflow: hidden;
-        margin: 1rem;
-    }
-
-    .btnall {
-        text-decoration: none;
-        letter-spacing: .2rem;
-        text-transform: uppercase;
-        color: black;
-    }
-
-    .btnall:hover {
-        text-decoration: underline;
-    }
-}
-
-@media (max-width: 800px) {
-    .zoom img {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 32rem;
-        width: 100%;
-        transition: transform 2s ease-in-out;
-        margin: 0rem 1rem;
-        padding: 0;
-        margin: 0;
-    }
-}
-
 .Collection-box {
-    height: 200vh;
     margin-bottom: 10rem;
 }
 
@@ -370,6 +208,7 @@
 }
 
 .collection-info-box h4 {
+    font-family: 'Poppins', sans-serif;
     font-size: 2.6rem;
 }
 

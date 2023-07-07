@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="App">
 
-      <><Navbar /></>
+      <><Navbar /></>      
 
       <Routes path="/E-Commerce" element={Home}>
         <Route exact path='/E-Commerce' element={<Home />} />
@@ -25,5 +25,6 @@ const App = () => {
     </div>
   );
 }
+
 
 export default App;

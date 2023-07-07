@@ -1,6 +1,6 @@
 # Fit & Casual
 
-Fit & Casual is a online clothing store, where you can view plenty of products with difrent categories.
+Fit & Casual is a online clothing store, build with simplicity in mind while still having a good structure. In here you can view plenty of products with difrent categories.
 
 ## Features
 

@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 export const Navbar = () => {
     return (
         <nav>
-            <label><Link to="/E-Commerce">Fit & Casual</Link></label>
+            <label><Link to="/E-Commerce" onClick={scrollToTop}>Fit & Casual</Link></label>
             <ul className="navbar-ul">
-                <li><Link to="/men" className="le">Men</Link>
+                <li><Link to="/men" className="le" onClick={scrollToTop}>Men</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Collection</a></li>
                         <li className="sub-li"><a href="#!">Simpsons</a></li>
@@ -39,7 +39,7 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Socks</a></li>
                     </ul>
                 </li>
-                <li><Link className="le" to="/women">Women</Link>
+                <li><Link className="le" to="/women" onClick={scrollToTop}>Women</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="/content/women/collection/collection.html">Collection</a></li>
                         <li className="sub-li"><a href="#!">Monster High</a></li>
@@ -106,7 +106,7 @@ export const Navbar = () => {
                     </ul>
                 </li>
                 <li><a className="le" href="#!">About</a></li>
-                <Link to="/account"><img className="nav-icon1" src={user} alt=""></img></Link>
+                <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
                 <a href="#!"><img className="nav-icon1" src={fav} alt=""></img></a>
                 <a href="#!"><img className="nav-icon1" src={cart} alt=""></img></a>
             </ul>
@@ -117,6 +117,13 @@ export const Navbar = () => {
             </a>
         </nav>
     )
+}
+
+const scrollToTop = () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'instant',
+    });
 }
 
 // Gets the elements of the navbar
