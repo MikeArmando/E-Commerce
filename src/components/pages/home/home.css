@@ -23,6 +23,7 @@
     letter-spacing: .5rem;
     font-size: 4.2rem;
     color: rgb(255, 255, 255);
+    margin: 1rem;
 }
 
 .intro-btn {
@@ -228,8 +229,15 @@
 }
 
 .collection-img-box a {
-    color: black;
+    font-size: .8rem;
+    text-transform: uppercase;
     text-decoration: none;
+    letter-spacing: .1rem;
+    color: black;
+}
+
+.collection-img-box a:hover {
+    text-decoration: underline;
 }
 
 .collection-img-box div {

@@ -2,7 +2,7 @@ import './home.css'
 import { useState } from 'react'
 
 export const Home = () => {
-
+    
     const [img, setImg] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_142_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
     const [img2, setImg2] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
     const [img3, setImg3] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_140_6.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
@@ -171,7 +171,7 @@ export const Home = () => {
                                 src={img}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name1">{text}</p>
+                                <p>{text}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
@@ -180,7 +180,7 @@ export const Home = () => {
                                 src={img2}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name2">{text2}</p>
+                                <p>{text2}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
@@ -189,7 +189,7 @@ export const Home = () => {
                                 src={img3}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name3">{text3}</p>
+                                <p>{text3}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
@@ -198,7 +198,7 @@ export const Home = () => {
                                 src={img4}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name4">{text4}</p>
+                                <p>{text4}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
@@ -207,7 +207,7 @@ export const Home = () => {
                                 src={img5}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name5">{text5}</p>
+                                <p>{text5}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
@@ -216,7 +216,7 @@ export const Home = () => {
                                 src={img6}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name6">{text6}</p>
+                                <p>{text6}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
