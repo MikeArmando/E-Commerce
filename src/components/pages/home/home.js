@@ -1,6 +1,83 @@
 import './home.css'
+import { useState } from 'react'
 
 export const Home = () => {
+
+    const [img, setImg] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_142_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+    const [img2, setImg2] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+    const [img3, setImg3] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_140_6.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+    const [img4, setImg4] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_146_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+    const [img5, setImg5] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36160.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+    const [img6, setImg6] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_141_3.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+
+    const [text, setText] = useState("Name")
+    const [text2, setText2] = useState("Skulls Bart T-shirt")
+    const [text3, setText3] = useState("Krusty T-shirt")
+    const [text4, setText4] = useState("Krusty Sequence T-shirt")
+    const [text5, setText5] = useState("Krusty Car T-shirt")
+    const [text6, setText6] = useState("Bart Graffiti T-shirt")
+
+    const handleClickMen = () => {
+        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_142_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_140_6.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_146_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36160.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_141_3.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+
+        setText("Skulls Bart T-shirt")
+        setText2("Krusty T-shirt")
+        setText3("Krusty Sequence T-shirt")
+        setText4("Itchy & Scratchy T-shirt")
+        setText5("Krusty Car T-shirt")
+        setText6("Bart Graffiti T-shirt")
+    }
+    const handleClickWomen = () => {
+        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35533.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36092.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35475.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35480.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35538.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35479.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+
+        setText("Stamped Sweatshirt")
+        setText2("Nightgown Pink Angel")
+        setText3("Floral T-shirt")
+        setText4("Bad Mood T-shirt")
+        setText5("Top Waffle Mustard")
+        setText6("Stamped T-shirt")
+    }
+    const handleClickFootwear = () => {
+        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35949.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35827.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34639.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_32519.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34471.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31560.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+
+        setText("Men's White Tennis")
+        setText2("Women's White Tennis")
+        setText3("Women's Thick Heeled Sandal")
+        setText4("Men's Black Tennis")
+        setText5("Women's Multicolored Tennis")
+        setText6("Men's White Tennis")
+    }
+    const handleClickAccessories = () => {
+        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36043.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35953.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35953.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35821.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35823.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35819.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+
+        setText("Women's Square Lenses")
+        setText2("Men's Oval Lenses")
+        setText3("Men's Chilling Cap")
+        setText4("Dragon Cap for Men")
+        setText5("LA Men's Cap")
+        setText6("Square Bag")
+    }
+
     return (
         <div className='home-box'>
             <section className="background1">
@@ -81,65 +158,65 @@ export const Home = () => {
                 <div className="collection-info-box">
                     <h4>New Collection</h4>
                     <div>
-                        <p id="collection-man-btn" onClick={CollectionManBtn}>Man</p>
-                        <p id="collection-women-btn" onClick={CollectionWomenBtn}>Women</p>
-                        <p id="collection-footwear-btn" onClick={CollectionFootwearBtn}>Footwear</p>
-                        <p id="collection-accessories-btn" onClick={CollectionAccessoriesBtn}>Accessories</p>
+                        <p onClick={handleClickMen}>Man</p>
+                        <p onClick={handleClickWomen}>Women</p>
+                        <p onClick={handleClickFootwear}>Footwear</p>
+                        <p onClick={handleClickAccessories}>Accessories</p>
                     </div>
                 </div>
                 <div className="collection-img-box">
                     <div>
                         <div>
                             <a href="#!"><img id="collection-img-1"
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_142_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={img}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name1">Skulls Bart T-shirt</p>
+                                <p id="collection-item-name1">{text}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
                         <div>
                             <a href="#!"><img id="collection-img-2"
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={img2}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name2">Krusty T-shirt</p>
+                                <p id="collection-item-name2">{text2}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
                         <div>
                             <a href="#!"><img id="collection-img-3"
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_140_6.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={img3}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name3">Krusty Sequence T-shirt</p>
+                                <p id="collection-item-name3">{text3}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
                         <div>
                             <a href="#!"><img id="collection-img-4"
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_146_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={img4}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name4">Itchy & Scratchy T-shirt</p>
+                                <p id="collection-item-name4">{text4}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
                         <div>
                             <a href="#!"><img id="collection-img-5"
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36160.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={img5}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name5">Krusty Car T-shirt</p>
+                                <p id="collection-item-name5">{text5}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
                         <div>
                             <a href="#!"><img id="collection-img-6"
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_141_3.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={img6}
                                 alt=""></img></a>
                             <div>
-                                <p id="collection-item-name6">Bart Graffiti T-shirt</p>
+                                <p id="collection-item-name6">{text6}</p>
                                 <a href="#!">Buy Now</a>
                             </div>
                         </div>
@@ -148,186 +225,4 @@ export const Home = () => {
             </section>
         </div>
     )
-}
-
-// data of the collection page
-const collectionItems = [
-    {
-        id: 1,
-        img: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_142_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img2: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img3: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_140_6.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img4: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_146_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img5: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36160.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img6: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_141_3.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        text: "Skulls Bart T-shirt.",
-        text2: "Krusty T-shirt",
-        text3: "Krusty Sequence T-shirt.",
-        text4: "Itchy & Scratchy T-shirt.",
-        text5: "Krusty Car T-shirt.",
-        text6: "Bart Graffiti T-shirt."
-    },
-    {
-        id: 2,
-        img: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35533.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img2: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36092.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img3: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35475.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img4: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35480.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img5: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35538.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img6: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35479.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        text: "Stamped Sweatshirt",
-        text2: "Nightgown Pink Angel",
-        text3: "Floral T-shirt",
-        text4: "Bad Mood T-shirt",
-        text5: "Top Waffle Mustard",
-        text6: "Stamped T-shirt"
-    },
-    {
-        id: 3,
-        img: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35949.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img2: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35827.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img3: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34639.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img4: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_32519.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img5: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34471.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img6: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31560.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        text: "Men's White Tennis",
-        text2: "Women's White Tennis",
-        text3: "Women's Thick Heeled Sandal",
-        text4: "Men's Black Tennis",
-        text5: "Women's Multicolored Tennis",
-        text6: "Men's White Tennis"
-    },
-    {
-        id: 4,
-        img: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36043.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img2: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36039.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img3: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35953.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img4: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35821.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img5: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35823.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        img6: "https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35819.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds",
-        text: "Women's Square Lenses",
-        text2: "Men's Oval Lenses",
-        text3: "Men's Chilling Cap",
-        text4: "Dragon Cap for Men",
-        text5: "LA Men's Cap",
-        text6: "Square Bag"
-    }
-]
-
-// Gets the buttons to select with category the user chooses
-let CollectionManBtn = document.querySelector("#collection-man-btn")
-let CollectionWomenBtn = document.querySelector("#collection-women-btn")
-let CollectionFootwearBtn = document.querySelector("#collection-footwear-btn")
-let CollectionAccessoriesBtn = document.querySelector("#collection-accessories-btn")
-
-// Gets the elements of the images
-
-let CollectionItem1 = document.querySelector("#collection-img-1")
-let CollectionItem2 = document.querySelector("#collection-img-2")
-let CollectionItem3 = document.querySelector("#collection-img-3")
-let CollectionItem4 = document.querySelector("#collection-img-4")
-let CollectionItem5 = document.querySelector("#collection-img-5")
-let CollectionItem6 = document.querySelector("#collection-img-6")
-
-// Gets the name of the items
-let collectionItemName1 = document.querySelector("#collection-item-name1")
-let collectionItemName2 = document.querySelector("#collection-item-name2")
-let collectionItemName3 = document.querySelector("#collection-item-name3")
-let collectionItemName4 = document.querySelector("#collection-item-name4")
-let collectionItemName5 = document.querySelector("#collection-item-name5")
-let collectionItemName6 = document.querySelector("#collection-item-name6")
-
-let currentItem = 0
-
-CollectionManBtn = () => {
-    currentItem = 0
-    const items = collectionItems[currentItem]
-    CollectionManBtn.style.color = "black"
-    CollectionWomenBtn.style.color = ""
-    CollectionFootwearBtn.style.color = ""
-    CollectionAccessoriesBtn.style.color = ""
-    // Replces the image of the item
-    CollectionItem1.src = items.img
-    CollectionItem2.src = items.img2
-    CollectionItem3.src = items.img3
-    CollectionItem4.src = items.img4
-    CollectionItem5.src = items.img5
-    CollectionItem6.src = items.img6
-
-    // Replces the name of the item
-    collectionItemName1.textContent = items.text
-    collectionItemName2.textContent = items.text2
-    collectionItemName3.textContent = items.text3
-    collectionItemName4.textContent = items.text4
-    collectionItemName5.textContent = items.text5
-    collectionItemName6.textContent = items.text6
-}
-CollectionWomenBtn = () => {
-    currentItem = 1
-    const items = collectionItems[currentItem]
-    CollectionWomenBtn.style.color = "black"
-    CollectionManBtn.style.color = ""
-    CollectionFootwearBtn.style.color = ""
-    CollectionAccessoriesBtn.style.color = ""
-    // Replces the image of the item
-    CollectionItem1.src = items.img
-    CollectionItem2.src = items.img2
-    CollectionItem3.src = items.img3
-    CollectionItem4.src = items.img4
-    CollectionItem5.src = items.img5
-    CollectionItem6.src = items.img6
-
-    // Replces the name of the item
-    collectionItemName1.textContent = items.text
-    collectionItemName2.textContent = items.text2
-    collectionItemName3.textContent = items.text3
-    collectionItemName4.textContent = items.text4
-    collectionItemName5.textContent = items.text5
-    collectionItemName6.textContent = items.text6
-}
-CollectionFootwearBtn = () => {
-    currentItem = 2
-    const items = collectionItems[currentItem]
-    CollectionFootwearBtn.style.color = "black"
-    CollectionManBtn.style.color = ""
-    CollectionWomenBtn.style.color = ""
-    CollectionAccessoriesBtn.style.color = ""
-    // Replces the image of the item
-    CollectionItem1.src = items.img
-    CollectionItem2.src = items.img2
-    CollectionItem3.src = items.img3
-    CollectionItem4.src = items.img4
-    CollectionItem5.src = items.img5
-    CollectionItem6.src = items.img6
-
-    // Replces the name of the item
-    collectionItemName1.textContent = items.text
-    collectionItemName2.textContent = items.text2
-    collectionItemName3.textContent = items.text3
-    collectionItemName4.textContent = items.text4
-    collectionItemName5.textContent = items.text5
-    collectionItemName6.textContent = items.text6
-}
-CollectionAccessoriesBtn = () => {
-    currentItem = 3
-    const items = collectionItems[currentItem]
-    CollectionAccessoriesBtn.style.color = "black"
-    CollectionManBtn.style.color = ""
-    CollectionWomenBtn.style.color = ""
-    CollectionFootwearBtn.style.color = ""
-    // Replces the image of the item
-    CollectionItem1.src = items.img
-    CollectionItem2.src = items.img2
-    CollectionItem3.src = items.img3
-    CollectionItem4.src = items.img4
-    CollectionItem5.src = items.img5
-    CollectionItem6.src = items.img6
-
-    // Replces the name of the item
-    collectionItemName1.textContent = items.text
-    collectionItemName2.textContent = items.text2
-    collectionItemName3.textContent = items.text3
-    collectionItemName4.textContent = items.text4
-    collectionItemName5.textContent = items.text5
-    collectionItemName6.textContent = items.text6
 }
