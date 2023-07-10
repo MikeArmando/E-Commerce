@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-Commerce/static/css/main.6710de5e.css",
-    "main.js": "/E-Commerce/static/js/main.5b9afdcc.js",
+    "main.css": "/E-Commerce/static/css/main.eea76ef7.css",
+    "main.js": "/E-Commerce/static/js/main.cddb31b9.js",
     "static/js/787.7b445511.chunk.js": "/E-Commerce/static/js/787.7b445511.chunk.js",
     "static/media/shttefan-Q--oPI42ArQ-unsplash.jpg": "/E-Commerce/static/media/shttefan-Q--oPI42ArQ-unsplash.3b3abaa36e014c3627fb.jpg",
     "static/media/girl-intro.avif": "/E-Commerce/static/media/girl-intro.15d3a482b967272aae4e.avif",
@@ -9,12 +9,12 @@
     "static/media/icon-cart.png": "/E-Commerce/static/media/icon-cart.837ed377484a99297d4b.png",
     "static/media/icon-fav.png": "/E-Commerce/static/media/icon-fav.2d76b7035982a18ac2f3.png",
     "index.html": "/E-Commerce/index.html",
-    "main.6710de5e.css.map": "/E-Commerce/static/css/main.6710de5e.css.map",
-    "main.5b9afdcc.js.map": "/E-Commerce/static/js/main.5b9afdcc.js.map",
+    "main.eea76ef7.css.map": "/E-Commerce/static/css/main.eea76ef7.css.map",
+    "main.cddb31b9.js.map": "/E-Commerce/static/js/main.cddb31b9.js.map",
     "787.7b445511.chunk.js.map": "/E-Commerce/static/js/787.7b445511.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6710de5e.css",
-    "static/js/main.5b9afdcc.js"
+    "static/css/main.eea76ef7.css",
+    "static/js/main.cddb31b9.js"
   ]
 }
