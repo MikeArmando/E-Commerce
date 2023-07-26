@@ -167,12 +167,32 @@ nav a {
     border-radius: 10px;
 }
 
-@media (max-width: 1000px) {
+
+@media (max-width: 900px) {
     .toggle-button {
         display: flex;
     }
 
-    .navbar-ul {
+    .navbar-ul.active {
         display: none;
     }
+
+    .le {
+        margin: 2rem 0;
+    }
+
+    .navbar-ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(192, 192, 192);
+        width: 55%;
+        height: 100vh;
+        top: -1rem;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media (max-width: 1000px) {}

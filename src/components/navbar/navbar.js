@@ -1,14 +1,22 @@
 import './navbar.css'
+import { useState } from 'react';
 import user from '../.././/assets/img/icon-user.png'
 import fav from '../.././/assets/img/icon-fav.png'
 import cart from '../.././/assets/img/icon-cart.png'
 import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
+
+    const [isMenuOpen, setMenuOpen] = useState(false);
+
+    const handleMenuToggle = () => {
+        setMenuOpen(!isMenuOpen);
+    };
+
     return (
         <nav>
             <label><Link to="/E-Commerce" onClick={scrollToTop}>Fit & Casual</Link></label>
-            <ul className="navbar-ul">
+            <ul className={`navbar-ul ${isMenuOpen ? 'active' : ''}`}>
                 <li><Link to="/men" className="le" onClick={scrollToTop}>Men</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Collection</a></li>

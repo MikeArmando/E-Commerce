@@ -2,7 +2,7 @@ import './home.css'
 import { useState } from 'react'
 
 export const Home = () => {
-    
+
     const [img, setImg] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_142_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
     const [img2, setImg2] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
     const [img3, setImg3] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_140_6.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
@@ -79,7 +79,7 @@ export const Home = () => {
     }
 
     return (
-        <div className='home-box'>
+        <>
             <section className="background1">
                 <div>
                     <h1 className="intro-text">Discover the new you</h1>
@@ -92,8 +92,8 @@ export const Home = () => {
             <section id="view-products" className="special-background">
                 <h1>New Clothes, New Passion.</h1>
                 <div className="special-box">
-                    <div className="zoom zoom-item1">
-                        <div className="item1"><a href="#!"><img className="item-img1"
+                    <div id='hidden' className="zoom zoom-item1">
+                        <div className="item1"><a href="#!"><img className="item-img1 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35755.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a></div>
                         <div className="btnall-box btnall-box1">
@@ -101,17 +101,17 @@ export const Home = () => {
                             <a className="btnall" href="#!">Buy Now</a>
                         </div>
                     </div>
-                    <div className="zoom zoom-item2">
-                        <div className="item2"><a href="#!"><img className="item-img2"
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_32813.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                    <div id='hidden' className="zoom zoom-item2">
+                        <div className="item2"><a href="#!"><img className="item-img2 allSpecialItems"
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37378.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a></div>
                         <div className="btnall-box btnall-box2">
-                            <p>Khaki Chinese Pants</p>
+                            <p>Jogger Felpa Cargo</p>
                             <a className="btnall" href="#!">Buy Now</a>
                         </div>
                     </div>
-                    <div className="zoom zoom-item3">
-                        <div className="item3"><a href="#!"><img className="item-img3"
+                    <div id='hidden' className="zoom zoom-item3">
+                        <div className="item3"><a href="#!"><img className="item-img3 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34250.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a></div>
                         <div className="btnall-box btnall-box3">
@@ -119,8 +119,8 @@ export const Home = () => {
                             <a className="btnall" href="#!">Buy Now</a>
                         </div>
                     </div>
-                    <div className="zoom zoom-item4">
-                        <div className="item4"><a href="#!"><img className="item-img4"
+                    <div id='hidden' className="zoom zoom-item4">
+                        <div className="item4"><a href="#!"><img className="item-img4 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36163.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a></div>
                         <div className="btnall-box btnall-box4">
@@ -132,32 +132,10 @@ export const Home = () => {
                 </div>
             </section>
 
-            <section className="special-backgroundM">
-                <h1>New Clothes, New Passion.</h1>
-                <div className="special-box">
-                    <div className="zoom">
-                        <div className="item2"><a href="#!"><img src="IMG/austin-wade-iQn82USu8gs-unsplash.jpg" alt=""></img></a></div>
-                        <a className="btnall" href="#!">See Products</a>
-                    </div>
-                </div>
-                <div className="special-box">
-                    <div className="zoom">
-                        <div className="item2"><a href="#!"><img src="IMG/taras-chernus-iIjResyhhW0-unsplash.jpg" alt=""></img></a></div>
-                        <a className="btnall" href="#!">See Products</a>
-                    </div>
-                </div>
-                <div className="special-box">
-                    <div className="zoom">
-                        <div className="item2"><a href="#!"><img src="IMG/hamza-nouasria-owpsBDBK5nY-unsplash.jpg" alt=""></img></a></div>
-                        <a className="btnall" href="#!">See Products</a>
-                    </div>
-                </div>
-            </section>
-
             <section className="Collection-box">
                 <div className="collection-info-box">
-                    <h4>New Collection</h4>
-                    <div>
+                    <h4>Popular Products</h4>
+                    <div className='collection-title-box'>
                         <p onClick={handleClickMen}>Man</p>
                         <p onClick={handleClickWomen}>Women</p>
                         <p onClick={handleClickFootwear}>Footwear</p>
@@ -223,6 +201,7 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
-        </div>
+
+        </>
     )
 }
