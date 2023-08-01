@@ -82,14 +82,14 @@ export const Home = () => {
         <>
             <section className="background1">
                 <div>
-                    <h1 className="intro-text">Discover the new you</h1>
-                    <div className="intro-btn-box">
-                        <a className="intro-btn" href="#view-products">VIEW PRODUCTS</a>
-                    </div>
+                    <h1 className="intro-text">Smart, Well Fitted, Casual Pices</h1>
+                    <a className="intro-btn" href="#view-products">View More</a>
                 </div>
             </section>
 
-            <section id="view-products" className="special-background">
+            <label id="view-products"></label>
+
+            <section className="special-background">
                 <h1>New Clothes, New Passion.</h1>
                 <div className="special-box">
                     <div id='hidden' className="zoom zoom-item1">

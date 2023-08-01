@@ -1,11 +1,11 @@
 .background1 {
-    background-image: url(/src/assets/img/shttefan-Q--oPI42ArQ-unsplash.jpg);
+    background-image: url(/src/assets/img/hero-home.jpg);
     height: 100vh;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -13,28 +13,30 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin: 0rem 5rem;
 }
 
 .intro-text {
+    max-width: 30rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: .5rem;
-    font-size: 4.2rem;
+    font-weight: 100;
+    font-size: 2rem;
     color: rgb(255, 255, 255);
-    margin: 1rem;
 }
 
 .intro-btn {
-    text-underline-offset: .5rem;
-    font-size: 1.2rem;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: .5rem 1.5rem;
+    font-size: 1.1rem;
     transition: ease-out .3s;
 }
 
 .intro-btn-box a:hover {
-    color: rgb(220, 220, 220);
 }
 
 @media (max-width: 400px) {
@@ -77,9 +79,10 @@
 
 .special-background h1 {
     font-family: 'Poppins', sans-serif;
+    font-weight: 100;
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .special-box {
@@ -283,7 +286,8 @@
 
 .collection-info-box h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.6rem;
+    font-weight: 100;
+    font-size: 2.8rem;
 }
 
 .collection-title-box {
