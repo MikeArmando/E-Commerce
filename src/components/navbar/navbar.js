@@ -13,6 +13,13 @@ export const Navbar = () => {
         setMenuOpen(!isMenuOpen);
     };
 
+    const [showSidebar, setShowSidebar] = useState(false);
+
+    // Step 3: Event handler function to toggle the sidebar visibility
+    const handleButtonClick = () => {
+        setShowSidebar(!showSidebar);
+    };
+
     return (
         <nav>
             <label><Link to="/E-Commerce" onClick={scrollToTop}>Fit & Casual</Link></label>
@@ -115,18 +122,24 @@ export const Navbar = () => {
                 </li>
                 <li><a className="le" href="#!">About</a></li>
                 <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
-                <a href="#!"><img className="nav-icon1" src={fav} alt=""></img></a>
-                <a href="#!"><img className="nav-icon1" src={cart} alt=""></img></a>
+                <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
+                <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
             </ul>
             <a href="#!" className="toggle-button">
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
             </a>
+
+            <div className={showSidebar ? 'sidebar' : ''}>
+
+            </div>
+
         </nav>
     )
 }
 
+// Scrolls to the top of the page when clicked
 const scrollToTop = () => {
     window.scrollTo({
         top: 0,

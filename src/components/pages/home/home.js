@@ -82,7 +82,7 @@ export const Home = () => {
         <>
             <section className="background1">
                 <div>
-                    <h1 className="intro-text">Smart, Well Fitted, Casual Pices</h1>
+                    <h1 className="intro-text">Smart, Well Fitted, Casual Pieces</h1>
                     <a className="intro-btn" href="#view-products">View More</a>
                 </div>
             </section>
