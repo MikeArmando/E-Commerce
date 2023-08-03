@@ -15,7 +15,7 @@ export const Navbar = () => {
 
     const [showSidebar, setShowSidebar] = useState(false);
 
-    // Step 3: Event handler function to toggle the sidebar visibility
+    // Event handler function to toggle the sidebar visibility
     const handleButtonClick = () => {
         setShowSidebar(!showSidebar);
     };
@@ -125,14 +125,14 @@ export const Navbar = () => {
                 <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
                 <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
             </ul>
-            <a href="#!" className="toggle-button">
+            <div className="toggle-button" onClick={handleMenuToggle}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
-            </a>
+            </div>
 
             <div className={showSidebar ? 'sidebar' : ''}>
-
+                <h2 className='cart-title'></h2>
             </div>
 
         </nav>
@@ -146,24 +146,3 @@ const scrollToTop = () => {
         behavior: 'instant',
     });
 }
-
-// Gets the elements of the navbar
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
-// Changes the background color of the navbar
-window.addEventListener('scroll', function () {
-    const nav = document.querySelector("nav")
-    var scrollPosition = window.scrollY;
-
-    // Define the scroll position at which to change the color
-    var scrollThreshold = 300; // Adjust this value to change when the color change occurs
-
-    // Change the color to white if the scroll position exceeds the threshold
-    if (scrollPosition > scrollThreshold) {
-        nav.style.background = 'white';
-    } else {
-        // Reset the color if the scroll position is less than the threshold
-        nav.style.background = '';
-    }
-});

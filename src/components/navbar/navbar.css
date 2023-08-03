@@ -174,7 +174,7 @@ nav a {
     }
 
     .navbar-ul.active {
-        display: none;
+        display: flex;
     }
 
     .le {
@@ -185,13 +185,17 @@ nav a {
         display: none;
         flex-direction: column;
         position: absolute;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(237, 237, 237);
         width: 55%;
-        height: 100vh;
+        height: 110vh;
         top: -1rem;
-        right: 0;
+        right: -1.92rem;
         justify-content: center;
         align-items: center;
+    }
+
+    .navbar-ul :hover>.sub-menu-box {
+        display: none;
     }
 }
 
@@ -204,3 +208,5 @@ nav a {
     width: 20rem;
     background-color: #ffffff;
 }
+
+.cart-title {}
