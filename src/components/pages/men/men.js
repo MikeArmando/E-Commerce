@@ -2,7 +2,7 @@ import './men.css'
 
 export const Men = () => {
     return (
-        <div className='Men'>
+        <>
             <section className="intro-page-box">
                 <div className="intro-page-column">
                     <div className="intro-page-text">
@@ -265,6 +265,6 @@ export const Men = () => {
                 </div>
             </section>
 
-        </div>
+        </>
     )
 }
