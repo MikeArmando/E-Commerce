@@ -193,9 +193,18 @@
     flex-direction: column;
 }
 
+.gender-items div label {
+    display: flex;
+    flex-direction: column;
+}
+
 .gender-items div a {
     font-size: .8rem;
     letter-spacing: .1rem;
     text-decoration: none;
     color: black;
+}
+
+.gender-items-price {
+
 }

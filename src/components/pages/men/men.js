@@ -21,7 +21,7 @@ export const Men = () => {
             </section>
 
             <section className="gender-clothes-box">
-                <h3>Clothes</h3>
+                <h3>Search By Category</h3>
                 <div className="gender-clothes-row">
 
                     <div className="gender-main-item">
@@ -130,6 +130,7 @@ export const Men = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Skinny Jeans Washed Black</a></label>
+                                <label className='gender-items-price'><a href="#!">$29</a></label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -264,7 +265,6 @@ export const Men = () => {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }
