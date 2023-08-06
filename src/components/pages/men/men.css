@@ -4,7 +4,7 @@
     background-size: cover;
     text-decoration: none;
     height: 93vh;
-    width: 80%;
+    width: 73%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +23,7 @@
 
 .intro-page-text {
     width: 80%;
+    margin-left: 7rem;
     display: flex;
     justify-content: flex-start;
 }
@@ -99,6 +100,9 @@
     letter-spacing: .1rem
 }
 
+
+/* Collection */
+
 .gender-collection-box h2 {
     display: flex;
     justify-content: center;
@@ -123,6 +127,9 @@
 .gender-collection-row img {
     height: 45rem;
 }
+
+
+/* Clothing Categories */
 
 .gender-clothes-box {
     margin: 15rem 0rem;
@@ -193,18 +200,9 @@
     flex-direction: column;
 }
 
-.gender-items div label {
-    display: flex;
-    flex-direction: column;
-}
-
 .gender-items div a {
     font-size: .8rem;
     letter-spacing: .1rem;
     text-decoration: none;
     color: black;
-}
-
-.gender-items-price {
-
 }

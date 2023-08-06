@@ -139,6 +139,7 @@ export const Men = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Jeans Ultra Skinny Remounted</a></label>
+                                <label className='gender-items-price'><a href="#!">$29</a></label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -147,6 +148,7 @@ export const Men = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Washed Black Denim Jacket</a></label>
+                                <label className='gender-items-price'><a href="#!">$29</a></label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -155,6 +157,7 @@ export const Men = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Jeans Slim Destructions</a></label>
+                                <label className='gender-items-price'><a href="#!">$29</a></label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -163,6 +166,7 @@ export const Men = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Straight Bleach Jeans</a></label>
+                                <label className='gender-items-price'><a href="#!">$29</a></label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -171,6 +175,7 @@ export const Men = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Straight Mounted Jeans</a></label>
+                                <label className='gender-items-price'><a href="#!">$29</a></label>
                             </div>
                         </div>
                     </div>
