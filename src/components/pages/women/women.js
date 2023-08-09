@@ -1,5 +1,3 @@
-import './women.css';
-
 export const Women = () => {
     return (
         <div className='Women'>

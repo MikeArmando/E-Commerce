@@ -1,4 +1,4 @@
-import './men.css'
+import './gender.css'
 
 export const Men = () => {
     return (
@@ -37,7 +37,7 @@ export const Men = () => {
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34791.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
                             <div>
-                                <label><a href="#!">Jeans</a></label>
+                                <label><a href="#!">Pants</a></label>
                             </div>
                         </div>
                         <div className="gender-items">
