@@ -176,8 +176,11 @@
     margin: 0rem 1rem;
 }
 
+.main-item-price {
+    font-size: 1.2rem;
+}
+
 .gender-main-item a {
-    letter-spacing: .1rem;
     text-decoration: none;
     color: black;
 }
@@ -195,14 +198,16 @@
 
 .gender-items div {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
-.gender-items div a {
-    font-size: .8rem;
-    letter-spacing: .1rem;
+.gender-items div label a {
+    font-size: .9rem;
     text-decoration: none;
     color: black;
+}
+
+.gender-items div label {
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
 }
