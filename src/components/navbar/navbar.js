@@ -146,6 +146,13 @@ export const Navbar = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='cart-check'>
+                        <p>Total: $49.00</p>
+                        <div>
+                            <a>View Cart</a>
+                            <a>Check Out</a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
