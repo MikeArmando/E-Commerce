@@ -19,7 +19,7 @@ export const Women = () => {
             </section>
 
             <section className="gender-clothes-box">
-                <h3>Clothes</h3>
+                <h3>Search By Category</h3>
                 <div className="gender-clothes-row">
 
                     <div className="gender-main-item">

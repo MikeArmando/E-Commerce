@@ -120,19 +120,33 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Sunglasses</a></li>
                     </ul>
                 </li>
+
                 <li><a className="le" href="#!">About</a></li>
                 <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
                 <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
                 <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
+
             </ul>
+
             <div className="toggle-button" onClick={handleMenuToggle}>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
             </div>
 
-            <div className={showSidebar ? 'sidebar' : ''}>
-                <h2 className='cart-title'></h2>
+            <div className={`sidebar ${showSidebar ? '' : 'active'}`}>
+                <div className='cart-box'>
+                    <h2>Your Cart</h2>
+                    <div className='cart-content'>
+                        <div className='cart-item'>
+                            <img src='https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds' alt=''></img>
+                            <div>
+                                <p>Black Denim Jacket</p>
+                                <p>1 x $49.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </nav>
