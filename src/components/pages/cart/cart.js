@@ -3,7 +3,7 @@ import './cart.css'
 export const Cart = () => {
     return (
         <>
-            <section className='cart-box'>
+            <section className='cart-page-box'>
 
                 <div className='cart-items-box'>
                     <table className='cart-category'>
@@ -25,10 +25,10 @@ export const Cart = () => {
                 <div className='cart-info'>
                     <h2>Order Summary</h2>
                     <div>
-                        <p>Shipping</p>
-                        <p>Subtotal</p>
-                        <p>Estimated tax</p>
-                        <p>Order Total</p>
+                        <p>Subtotal:</p>
+                        <p>Shipping:</p>
+                        <p>Estimated tax:</p>
+                        <p>Order Total:</p>
                     </div>
                 </div>
 

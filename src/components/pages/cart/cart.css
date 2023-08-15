@@ -1,8 +1,8 @@
-.cart-box {
+.cart-page-box {
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-items: center;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
 }
 
@@ -12,8 +12,17 @@
 }
 
 table {
-    border: 2px solid rgb(193, 193, 193);
-    padding: 12rem 15rem;
+    border: 1px solid rgba(193, 193, 193, 0.511);
+    padding: 10rem 2rem;
+    border-spacing: 5rem 0;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+table td {
+    padding: 4rem 2rem;
 }
 
 table th, td {
@@ -21,8 +30,10 @@ table th, td {
 }
 
 .cart-info {
-    display: grid;
-    justify-items: center;
-    border: 2px solid rgb(193, 193, 193);
+    border: 1px solid rgba(193, 193, 193, 0.511);
     padding: 8.2rem 8rem;
+}
+
+.cart-info h2 {
+    text-transform: uppercase;
 }
