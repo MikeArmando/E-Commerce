@@ -1,2 +1,28 @@
-.cart-box { 
+.cart-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+.cart-items-box {
+    display: grid;
+    justify-items: center;
+}
+
+table {
+    border: 2px solid rgb(193, 193, 193);
+    padding: 12rem 15rem;
+}
+
+table th, td {
+    padding: 1rem 2rem;
+}
+
+.cart-info {
+    display: grid;
+    justify-items: center;
+    border: 2px solid rgb(193, 193, 193);
+    padding: 8.2rem 8rem;
 }
