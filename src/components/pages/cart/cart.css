@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     justify-items: center;
-    height: 100vh;
-    margin: 0;
+    padding: 10rem 0;
+    margin-bottom: 10rem;
 }
 
 .cart-items-box {
@@ -17,23 +17,67 @@ table {
     border-spacing: 5rem 0;
 }
 
+table img {
+    height: 10rem;
+}
+
 table th {
     text-transform: uppercase;
 }
 
 table td {
-    padding: 4rem 2rem;
+    border: 2px solid;
+    text-align: center;
 }
 
-table th, td {
+table th {
+    border: 2px solid;
     padding: 1rem 2rem;
 }
 
+.img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* cart info */
+
 .cart-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border: 1px solid rgba(193, 193, 193, 0.511);
-    padding: 8.2rem 8rem;
+    padding: 1rem 8rem;
 }
 
 .cart-info h2 {
     text-transform: uppercase;
+}
+
+.cart-info div {
+    margin: 4rem 0;
+}
+
+.cart-info div p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-info div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: .2rem;
+    background-color: black;
+    border: 2px solid;
+    padding: .8rem 1.5rem;
+}
+
+.cart-info div a:hover {
+    background-color: white;
+    color: black;
 }
