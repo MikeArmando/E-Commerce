@@ -12,26 +12,28 @@
 }
 
 table {
+    max-height: 25rem;
     border: 1px solid rgba(193, 193, 193, 0.511);
-    padding: 10rem 2rem;
+    padding: 3rem 1rem;
     border-spacing: 5rem 0;
 }
 
-table img {
-    height: 10rem;
-}
 
 table th {
     text-transform: uppercase;
 }
 
-table td {
+table th, td {
     border: 2px solid;
+}
+
+table td {
+    min-height: 15rem;
+    color: rgb(78, 78, 78);
     text-align: center;
 }
 
 table th {
-    border: 2px solid;
     padding: 1rem 2rem;
 }
 
@@ -39,6 +41,14 @@ table th {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+table img {
+    height: 10rem;
+}
+
+.img-text p {
+    margin: 0 1rem;
 }
 
 
@@ -75,6 +85,7 @@ table th {
     background-color: black;
     border: 2px solid;
     padding: .8rem 1.5rem;
+    transition: all .3s;
 }
 
 .cart-info div a:hover {
