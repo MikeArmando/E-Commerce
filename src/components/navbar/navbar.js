@@ -129,14 +129,17 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Sunglasses</a></li>
                     </ul>
                 </li>
-
                 <li><a className="le" href="#!">About</a></li>
-                <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
-                <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
-                <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
+
+
 
             </ul>
-
+            <div className='icon-right'>
+            <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
+            <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
+            <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
+            </div>
+            
             <div className="toggle-button" onClick={handleMenuToggle}>
                 <span className="bar"></span>
                 <span className="bar"></span>
