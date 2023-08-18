@@ -20,6 +20,15 @@ export const Navbar = () => {
         setShowSidebar(!showSidebar);
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+
+        setShowSidebar(false);
+    }
+
     return (
         <nav>
             <label><Link to="/E-Commerce" onClick={scrollToTop}>Fit & Casual</Link></label>
@@ -149,8 +158,8 @@ export const Navbar = () => {
                     <div className='cart-check'>
                         <p>Total: $49.00</p>
                         <div>
-                            <Link to="/cart">View Cart</Link>
-                            <Link>Check Out</Link>
+                            <Link to="/cart" onClick={scrollToTop}>View Cart</Link>
+                            <Link onClick={scrollToTop}>Check Out</Link>
                         </div>
                     </div>
                 </div>
@@ -161,9 +170,4 @@ export const Navbar = () => {
 }
 
 // Scrolls to the top of the page when clicked
-const scrollToTop = () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'instant',
-    });
-}
+
