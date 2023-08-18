@@ -36,7 +36,7 @@ export const Men = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34791.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Pants</a></label>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export const Men = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">jackets</a></label>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ export const Men = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">sweatshirts</a></label>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export const Men = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35_3.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">joggers</a></label>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export const Men = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35454.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Swimsuits</a></label>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export const Men = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_33059.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Underwear</a></label>
                             </div>
                         </div>

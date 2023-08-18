@@ -1,6 +1,16 @@
 import './cart.css'
+import { useState } from 'react'
 
 export const Cart = () => {
+    const [countCart, setCountCart] = useState(1);
+
+    const handleCountCartPlus = () => {
+        setCountCart(countCart + 1)
+    };
+    const handleCountCartMinus = () => {
+        setCountCart(countCart - 1)
+    };
+
     return (
         <>
             <section className='cart-page-box'>
@@ -15,14 +25,14 @@ export const Cart = () => {
                         </tr>
                         <tr>
                             <td className='img-text'><img src='https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds' alt=''></img><p>Black Denim Jacket</p></td>
-                            <td>$49.00</td>
-                            <td className='count-cart-btn'><button>+</button>1<button>-</button></td>
-                            <td>$49.00</td>
+                            <td>$25.00</td>
+                            <td className='count-cart-btn'><button onClick={handleCountCartPlus}>+</button>{countCart}<button onClick={handleCountCartMinus}>-</button></td>
+                            <td>$25.00</td>
                         </tr>
                         <tr>
                             <td className='img-text'><img src='https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39948.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds  ' alt=''></img><p>Black Cargo Pants</p></td>
                             <td>$49.00</td>
-                            <td className='count-cart-btn'><button>+</button>1<button>-</button></td>
+                            <td className='count-cart-btn'><button onClick={handleCountCartPlus}>+</button>{countCart}<button onClick={handleCountCartMinus}>-</button></td>
                             <td>$49.00</td>
                         </tr>
                     </table>

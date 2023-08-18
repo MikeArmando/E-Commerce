@@ -210,6 +210,11 @@
     height: 20rem;
 }
 
+.category-center {
+    display: flex;
+    align-items: center;
+}
+
 .gender-items div {
     display: flex;
     flex-direction: column;

@@ -19,10 +19,12 @@ table {
 }
 
 table th {
+    font-size: .9rem;
     text-transform: uppercase;
 }
 
 table td {
+    font-size: .9rem;
     min-height: 15rem;
     color: rgb(78, 78, 78);
     text-align: center;
@@ -74,6 +76,7 @@ table img {
 }
 
 .cart-info h2 {
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
@@ -82,7 +85,7 @@ table img {
 }
 
 .cart-info div p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;

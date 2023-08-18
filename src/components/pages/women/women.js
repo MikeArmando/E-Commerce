@@ -34,7 +34,7 @@ export const Women = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35283.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Blouses</a></label>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ export const Women = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31707.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Jackets</a></label>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export const Women = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36692.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Shirts</a></label>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export const Women = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37218.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Skirts</a></label>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ export const Women = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36147.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Dresses</a></label>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ export const Women = () => {
                             <a href="#!"><img
                                 src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36106.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                                 alt=""></img></a>
-                            <div>
+                            <div className='category-center'>
                                 <label><a href="#!">Shorts</a></label>
                             </div>
                         </div>
@@ -119,6 +119,7 @@ export const Women = () => {
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_29250.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <label><a href="#!">Skinny Jeans High Throw Black</a></label>
+                        <label>$29</label>
                     </div>
 
                     <div className="gender-item-box">
@@ -128,6 +129,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Flare Jeans Black</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -136,6 +138,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Jeans Cargo Camel</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -144,6 +147,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Jeans Mom Fit</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -152,6 +156,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Straight Jeans Full Flowers</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -160,6 +165,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Wide Leg Jeans with Cut-Outs</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -168,6 +174,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Jeans Kick Flare</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                     </div>
@@ -183,6 +190,7 @@ export const Women = () => {
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_16232.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <label><a href="#!">Sport Top Black</a></label>
+                        <label>$29</label>
                     </div>
 
                     <div className="gender-item-box">
@@ -192,6 +200,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Bone Biker</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -200,6 +209,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Leggins Capri</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -208,6 +218,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Black Sports Shorts</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -216,6 +227,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Sport Top Crew Neck</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -224,6 +236,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Leggings Capri Pink</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -232,6 +245,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Jasper Sports Shorts</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                     </div>
@@ -272,6 +286,7 @@ export const Women = () => {
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36092.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <label><a href="#!">Nightgown Pink Angel</a></label>
+                        <label>$29</label>
                     </div>
 
                     <div className="gender-item-box">
@@ -281,6 +296,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Cotton Brassiere</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -289,6 +305,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Black Thong</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -297,6 +314,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Marbled bikini</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -305,6 +323,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Bikini Suaje</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -313,6 +332,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Washed Khaki Pants</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
@@ -321,6 +341,7 @@ export const Women = () => {
                                 alt=""></img></a>
                             <div>
                                 <label><a href="#!">Top Seamless</a></label>
+                                <label>$29</label>
                             </div>
                         </div>
                     </div>
