@@ -16,7 +16,13 @@ export const Cart = () => {
                         <tr>
                             <td className='img-text'><img src='https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds' alt=''></img><p>Black Denim Jacket</p></td>
                             <td>$49.00</td>
-                            <td>+1-</td>
+                            <td><button>+</button>1<button>-</button></td>
+                            <td>$49.00</td>
+                        </tr>
+                        <tr>
+                            <td className='img-text'><img src='https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39948.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds  ' alt=''></img><p>Black Cargo Pants</p></td>
+                            <td>$49.00</td>
+                            <td><button>+</button>1<button>-</button></td>
                             <td>$49.00</td>
                         </tr>
                     </table>
