@@ -109,6 +109,26 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Pijamas</a></li>
                     </ul>
                 </li>
+                <li><a className="le" href="#!">Kids</a>
+                    <ul className="sub-menu-box">
+                        <li className="sub-menu-title"><a href="#!">Boy</a></li>
+                        <li className="sub-li"><a href="#!">Backpacks</a></li>
+                        <li className="sub-li"><a href="#!">Wallets</a></li>
+                        <li className="sub-li"><a href="#!">Caps and Hats</a></li>
+                        <li className="sub-li"><a href="#!">Belts</a></li>
+                        <li className="sub-li"><a href="#!">Sunglasses</a></li>
+                    </ul>
+                    <ul className="sub-menu-box sub-menu-box1">
+                        <li className="sub-menu-title"><a href="#!">Girl</a></li>
+                        <li className="sub-li"><a href="#!">Jewelry</a></li>
+                        <li className="sub-li"><a href="#!">Bags</a></li>
+                        <li className="sub-li"><a href="#!">Backpacks</a></li>
+                        <li className="sub-li"><a href="#!">Purses and Cosmetics</a></li>
+                        <li className="sub-li"><a href="#!">Hair Accessories</a></li>
+                        <li className="sub-li"><a href="#!">Belts</a></li>
+                        <li className="sub-li"><a href="#!">Sunglasses</a></li>
+                    </ul>
+                </li>
                 <li><a className="le" href="#!">Accessories</a>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Man</a></li>
@@ -129,17 +149,14 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Sunglasses</a></li>
                     </ul>
                 </li>
-                <li><a className="le" href="#!">About</a></li>
-
-
 
             </ul>
             <div className='icon-right'>
-            <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
-            <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
-            <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
+                <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
+                <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
+                <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
             </div>
-            
+
             <div className="toggle-button" onClick={handleMenuToggle}>
                 <span className="bar"></span>
                 <span className="bar"></span>
