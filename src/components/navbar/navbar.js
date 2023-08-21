@@ -112,21 +112,18 @@ export const Navbar = () => {
                 <li><a className="le" href="#!">Kids</a>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Boy</a></li>
-                        <li className="sub-li"><a href="#!">Backpacks</a></li>
-                        <li className="sub-li"><a href="#!">Wallets</a></li>
-                        <li className="sub-li"><a href="#!">Caps and Hats</a></li>
-                        <li className="sub-li"><a href="#!">Belts</a></li>
-                        <li className="sub-li"><a href="#!">Sunglasses</a></li>
+                        <li className="sub-li"><a href="#!">Shirts</a></li>
+                        <li className="sub-li"><a href="#!">Jeans</a></li>
+                        <li className="sub-li"><a href="#!">Jacket</a></li>
+                        <li className="sub-li"><a href="#!">T-Shirts</a></li>
                     </ul>
                     <ul className="sub-menu-box sub-menu-box1">
                         <li className="sub-menu-title"><a href="#!">Girl</a></li>
-                        <li className="sub-li"><a href="#!">Jewelry</a></li>
-                        <li className="sub-li"><a href="#!">Bags</a></li>
-                        <li className="sub-li"><a href="#!">Backpacks</a></li>
-                        <li className="sub-li"><a href="#!">Purses and Cosmetics</a></li>
-                        <li className="sub-li"><a href="#!">Hair Accessories</a></li>
-                        <li className="sub-li"><a href="#!">Belts</a></li>
-                        <li className="sub-li"><a href="#!">Sunglasses</a></li>
+                        <li className="sub-li"><a href="#!">Blouses</a></li>
+                        <li className="sub-li"><a href="#!">Shirts</a></li>
+                        <li className="sub-li"><a href="#!">Jeans</a></li>
+                        <li className="sub-li"><a href="#!">Dresses</a></li>
+                        <li className="sub-li"><a href="#!">T-Shirts</a></li>
                     </ul>
                 </li>
                 <li><a className="le" href="#!">Accessories</a>

@@ -9,6 +9,14 @@ export const Cart = () => {
     };
     const handleCountCartMinus = () => {
         setCountCart(countCart - 1)
+
+        // makes it so count can only go down to 0
+        if (countCart === 0) {
+            setCountCart(countCart)
+
+        } else {
+            setCountCart(countCart - 1)
+        }
     };
 
     return (
