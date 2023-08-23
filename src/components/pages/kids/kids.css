@@ -42,13 +42,43 @@
     transition: all .3s;
 }
 
-
 .kids-hero-img div a:hover {
     background-color: black;
     color: white;
     border: 2px solid black;
 }
 
+.kids-item-center {
+    text-align: center;
+}
+
+.kids-item-center h2 {
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
 .kids-item-box {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5rem;
+}
+
+.kids-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kids-items img {
+    height: 22rem;
+}
+
+.kids-text-center {
+    display: flex;
+    flex-direction: column;
+}
+
+.kids-text-center a {
+    text-decoration: none;
+    color: black;
 }
