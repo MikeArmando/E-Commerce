@@ -1,9 +1,9 @@
 import './navbar.css'
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 import user from '../.././/assets/img/icon-user.png'
 import fav from '../.././/assets/img/icon-fav.png'
 import cart from '../.././/assets/img/icon-cart.png'
-import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
 
@@ -109,7 +109,7 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Pijamas</a></li>
                     </ul>
                 </li>
-                <li><a className="le" href="#!">Kids</a>
+                <li><Link className="le" href="#!" to="/kids" onClick={scrollToTop}>Kids</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Boy</a></li>
                         <li className="sub-li"><a href="#!">Shirts</a></li>

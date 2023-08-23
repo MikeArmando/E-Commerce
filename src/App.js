@@ -5,6 +5,7 @@ import { Footer } from './components/footer/footer'
 import { Home } from './components/pages/home/home'
 import { Men } from './components/pages/men/men'
 import { Women } from './components/pages/women/women'
+import { Kids } from './components/pages/kids/kids'
 import { Cart } from './components/pages/cart/cart'
 import { Account } from './components/pages/account/account'
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path='/E-Commerce' element={<Home />} />
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
+        <Route path="/kids" element={<Kids />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/account" element={<Account />} />
       </Routes>
