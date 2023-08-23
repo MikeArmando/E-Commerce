@@ -1,0 +1,54 @@
+.kids-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    padding: 5rem;
+}
+
+.kids-hero-img {
+    background-image: url(https://images.unsplash.com/photo-1541580621-cb65cc53084b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    height: 100%;
+    width: 80%;
+}
+
+.kids-hero-img div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.kids-hero-p1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.kids-hero-img div a {
+    cursor: pointer;
+    background-color: white;
+    padding: .5rem 1.8rem;
+    color: black;
+    border: 2px solid;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+
+.kids-hero-img div a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.kids-item-box {
+    
+}

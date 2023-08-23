@@ -5,12 +5,17 @@ export const Kids = () => {
     return (
         <>
             <section className='kids-hero'>
-                <div>
+                <a className='kids-hero-img' href='#!'>
+                    <div>
+                        <p className='kids-hero-p1'>Warn Clothes for the weather</p>
+                        <p>With the most comfortable materials</p>
+                        <a href='#!'>Buy Now</a>
+                    </div>
+                </a>
+            </section>
 
-                </div>
-                <div>
-
-                </div>
+            <section className='kids-item-box'>
+                
             </section>
         </>
     )
