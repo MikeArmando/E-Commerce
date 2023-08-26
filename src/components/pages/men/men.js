@@ -24,7 +24,7 @@ export const Men = () => {
                 <h2>Search By Category</h2>
                 <div className="gender-gate-row">
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40225.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -32,7 +32,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_331_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -40,7 +40,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39931.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -48,7 +48,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39299.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -56,7 +56,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39849.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -64,7 +64,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39948.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -72,7 +72,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38236.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
@@ -80,7 +80,7 @@ export const Men = () => {
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
+                        <a className='image-effect' href="#!"><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_290_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>

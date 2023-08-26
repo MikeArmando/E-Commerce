@@ -22,64 +22,64 @@ export const Women = () => {
                 <h2>Search By Category</h2>
                 <div className="gender-gate-row">
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34791.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40225.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            alt=""></img></a>
+                        <div className='category-center'>
+                            <label><a href="#!">T-Shirts</a></label>
+                        </div>
+                    </div>
+                    <div className="gender-gate-items">
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_331_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Shirts</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39931.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Pants</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39299.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">jackets</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39849.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">sweatshirts</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35454.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39948.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">joggers</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35454.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38236.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Swimsuits</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_33059.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
-                            alt=""></img></a>
-                        <div className='category-center'>
-                            <label><a href="#!">Underwear</a></label>
-                        </div>
-                    </div>
-                    <div className="gender-gate-items">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_33059.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        <a className='image-effect' href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_290_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Underwear</a></label>
@@ -187,6 +187,31 @@ export const Women = () => {
                 </div>
             </section>
 
+            <section className="gender-collection-box">
+                <div className="gender-collection-row">
+                    <div className="gender-clothes-img">
+                        <a href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35711.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            alt="#!"></img>
+                        </a>
+                        <div>
+                            <h3>Monster High</h3>
+                            <a href="#!">View Collection</a>
+                        </div>
+                    </div>
+                    <div className="gender-clothes-img">
+                        <div>
+                            <h3>T-shirts licenses</h3>
+                            <a href="#!">View Collection</a>
+                        </div>
+                        <a href="#!"><img
+                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_53_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            alt=""></img>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
             <section className="gender-clothes-box">
                 <h3>Sportive</h3>
                 <div className="gender-clothes-row">
@@ -254,31 +279,6 @@ export const Women = () => {
                                 <label>$29</label>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="gender-collection-box">
-                <div className="gender-collection-row">
-                    <div className="gender-clothes-img">
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35711.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
-                            alt="#!"></img>
-                        </a>
-                        <div>
-                            <h3>Monster High</h3>
-                            <a href="#!">View Collection</a>
-                        </div>
-                    </div>
-                    <div className="gender-clothes-img">
-                        <div>
-                            <h3>T-shirts licenses</h3>
-                            <a href="#!">View Collection</a>
-                        </div>
-                        <a href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_53_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
-                            alt=""></img>
-                        </a>
                     </div>
                 </div>
             </section>
