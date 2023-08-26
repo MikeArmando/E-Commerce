@@ -72,80 +72,6 @@
 }
 
 
-/* feature */
-
-.man-feature-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.man-feature-box h2 {
-    font-weight: 200;
-    font-size: 2rem;
-    margin: 2rem 0rem;
-}
-
-.man-feature-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.man-feature-row div {
-    margin: 0rem 1rem;
-    transition: all .3s;
-}
-
-.man-feature-row div:hover {
-    transform: translateY(-1.5rem);
-}
-
-.man-feature-box img {
-    height: 27rem;
-}
-
-.man-feature-row div a {
-    margin-top: .5rem;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: .9rem;
-    text-decoration: none;
-    letter-spacing: .1rem
-}
-
-
-/* Collection */
-
-.gender-collection-box h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-}
-
-.gender-collection-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.gender-clothes-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0rem;
-    width: 100%;
-}
-
-.gender-collection-row img {
-    height: 45rem;
-}
-
-
 /* Clothing Categories */
 
 .gender-gate-box {
@@ -187,6 +113,84 @@
     text-decoration: none;
 
 }
+
+/* feature */
+
+.man-feature-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 13rem 0;
+}
+
+.man-feature-box h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.man-feature-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.man-feature-row div {
+    margin: 0rem 1rem;
+    transition: all .3s;
+}
+
+.man-feature-row div:hover {
+    transform: translateY(-1.5rem);
+}
+
+.man-feature-box img {
+    height: 27rem;
+}
+
+.man-feature-row div a {
+    margin-top: .5rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9rem;
+    text-decoration: none;
+    letter-spacing: .1rem
+}
+
+
+/* Collection */
+.gender-collection-box {
+    margin: 17rem 0;
+}
+
+.gender-collection-box h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.gender-collection-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gender-clothes-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0rem;
+    width: 100%;
+}
+
+.gender-collection-row img {
+    height: 45rem;
+}
+
 
 /* Clothing items */
 
