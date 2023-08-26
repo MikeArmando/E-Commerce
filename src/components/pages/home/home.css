@@ -286,7 +286,6 @@
 }
 
 .collection-info-box h4 {
-    font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-size: 2.8rem;
 }
@@ -304,6 +303,10 @@
 
 .collection-img-box {
     margin: 0rem 10rem;
+}
+
+.collection-img-box p {
+    margin-top: 0;
 }
 
 .collection-img-box a {

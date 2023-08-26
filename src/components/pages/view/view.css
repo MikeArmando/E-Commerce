@@ -1,0 +1,97 @@
+.view-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 8rem 3rem;
+    align-items: top;
+    gap: 0rem;
+}
+
+.view-img-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.view-img-box a {
+    margin: 1rem;
+}
+
+.view-img-box img {
+    height: 42rem;
+}
+
+
+/* info */
+
+.view-info-box {}
+
+.view-info-name {
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.view-color {
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+
+.view-info-box p {
+    margin-left: .3rem;
+}
+
+.view-pro-img img {
+    height: 8rem;
+}
+
+.chart-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comms {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
+
+.size-text {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.chart-box a {
+    font-size: .7rem;
+    margin: .3rem;
+    padding: .6rem 2.4rem;
+    min-width: 2rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.chart-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+    display: inline-block;
+    margin: 1rem .3rem;
+    color: black;
+}
+
+.add-cart {
+    display: block;
+    color: white;
+    background-color: black;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: all .3s;
+}
+
+.add-cart:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}

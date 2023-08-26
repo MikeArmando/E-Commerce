@@ -8,6 +8,7 @@ import { Women } from './components/pages/women/women'
 import { Kids } from './components/pages/kids/kids'
 import { Cart } from './components/pages/cart/cart'
 import { Account } from './components/pages/account/account'
+import { View } from './components/pages/view/view'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/women" element={<Women />} />
         <Route path="/kids" element={<Kids />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/view" element={<View />} />
         <Route path="/account" element={<Account />} />
       </Routes>
 
