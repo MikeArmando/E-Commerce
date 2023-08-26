@@ -79,6 +79,13 @@ export const Home = () => {
         setText6("Square Bag")
     }
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+    }
+
     return (
         <>
             <section className="background1">
@@ -94,40 +101,40 @@ export const Home = () => {
                 <h1>New Clothes, New Passion.</h1>
                 <div className="special-box">
                     <div id='hidden' className="zoom zoom-item1">
-                        <div className="item1"><Link to="/view"><img className="item-img1 allSpecialItems"
+                        <div className="item1"><Link to="/view" onClick={scrollToTop}><img className="item-img1 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35755.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box1">
                             <p>Denim Bleach Jacket</p>
-                            <Link className="btnall" to="/view">Buy Now</Link>
+                            <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
                     <div id='hidden' className="zoom zoom-item2">
-                        <div className="item2"><Link to="/view"><img className="item-img2 allSpecialItems"
+                        <div className="item2"><Link to="/view" onClick={scrollToTop}><img className="item-img2 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37378.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box2">
                             <p>Jogger Felpa Cargo</p>
-                            <Link className="btnall" to="/view">Buy Now</Link>
+                            <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
                     <div id='hidden' className="zoom zoom-item3">
-                        <div className="item3"><Link to="/view"><img className="item-img3 allSpecialItems"
+                        <div className="item3"><Link to="/view" onClick={scrollToTop}><img className="item-img3 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34250.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box3">
                             <p>Oxford Sweatshirt</p>
-                            <Link className="btnall" to="/view">Buy Now</Link>
+                            <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
                     <div id='hidden' className="zoom zoom-item4">
-                        <div className="item4"><Link to="/view"><img className="item-img4 allSpecialItems"
+                        <div className="item4"><Link to="/view" onClick={scrollToTop}><img className="item-img4 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36163.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box4">
                             <p>Beige Bomber Jacket
                             </p>
-                            <Link className="btnall" to="/view">Buy Now</Link>
+                            <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
                 </div>
@@ -146,57 +153,57 @@ export const Home = () => {
                 <div className="collection-img-box">
                     <div>
                         <div>
-                            <Link to="/view"><img id="collection-img-1"
+                            <Link to="/view" onClick={scrollToTop}><img id="collection-img-1"
                                 src={img}
                                 alt=""></img></Link>
                             <div>
                                 <p>{text}</p>
-                                <Link to="/view">Buy Now</Link>
+                                <Link to="/view" onClick={scrollToTop}>Buy Now</Link>
                             </div>
                         </div>
                         <div>
-                            <Link to="/view"><img id="collection-img-2"
+                            <Link to="/view" onClick={scrollToTop}><img id="collection-img-2"
                                 src={img2}
                                 alt=""></img></Link>
                             <div>
                                 <p>{text2}</p>
-                                <Link to="/view">Buy Now</Link>
+                                <Link to="/view" onClick={scrollToTop}>Buy Now</Link>
                             </div>
                         </div>
                         <div>
-                            <Link to="/view"><img id="collection-img-3"
+                            <Link to="/view" onClick={scrollToTop}><img id="collection-img-3"
                                 src={img3}
                                 alt=""></img></Link>
                             <div>
                                 <p>{text3}</p>
-                                <Link to="/view">Buy Now</Link>
+                                <Link to="/view" onClick={scrollToTop}>Buy Now</Link>
                             </div>
                         </div>
                         <div>
-                            <Link to="/view"><img id="collection-img-4"
+                            <Link to="/view" onClick={scrollToTop}><img id="collection-img-4"
                                 src={img4}
                                 alt=""></img></Link>
                             <div>
                                 <p>{text4}</p>
-                                <Link to="/view">Buy Now</Link>
+                                <Link to="/view" onClick={scrollToTop}>Buy Now</Link>
                             </div>
                         </div>
                         <div>
-                            <Link to="/view"><img id="collection-img-5"
+                            <Link to="/view" onClick={scrollToTop}><img id="collection-img-5"
                                 src={img5}
                                 alt=""></img></Link>
                             <div>
                                 <p>{text5}</p>
-                                <Link to="/view">Buy Now</Link>
+                                <Link to="/view" onClick={scrollToTop}>Buy Now</Link>
                             </div>
                         </div>
                         <div>
-                            <Link to="/view"><img id="collection-img-6"
+                            <Link to="/view" onClick={scrollToTop}><img id="collection-img-6"
                                 src={img6}
                                 alt=""></img></Link>
                             <div>
                                 <p>{text6}</p>
-                                <Link to="/view">Buy Now</Link>
+                                <Link to="/view" onClick={scrollToTop}>Buy Now</Link>
                             </div>
                         </div>
                     </div>
