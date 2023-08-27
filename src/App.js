@@ -9,6 +9,7 @@ import { Kids } from './components/pages/kids/kids'
 import { Accesories } from './components/pages/accesories/accesories'
 import { Cart } from './components/pages/cart/cart'
 import { Account } from './components/pages/account/account'
+import { Fav } from './components/pages/fav/fav'
 import { View } from './components/pages/view/view'
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/kids" element={<Kids />} />
         <Route path="/accesories" element={<Accesories />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/fav" element={<Fav />} />
         <Route path="/view" element={<View />} />
         <Route path="/account" element={<Account />} />
       </Routes>

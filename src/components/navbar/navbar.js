@@ -150,7 +150,7 @@ export const Navbar = () => {
             </ul>
             <div className='icon-right'>
                 <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
-                <a href="#!" ><img className="nav-icon1" src={fav} alt=""></img></a>
+                <Link to="/fav" ><img className="nav-icon1" src={fav} alt=""></img></Link>
                 <a href="#!" onClick={handleButtonClick}><img className="nav-icon1" src={cart} alt=""></img></a>
             </div>
 
