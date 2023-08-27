@@ -126,7 +126,7 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">T-Shirts</a></li>
                     </ul>
                 </li>
-                <li><a className="le" href="#!">Accessories</a>
+                <li><Link className="le" to="/accesories" onClick={scrollToTop}>Accessories</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Man</a></li>
                         <li className="sub-li"><a href="#!">Backpacks</a></li>

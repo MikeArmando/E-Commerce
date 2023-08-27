@@ -1,81 +1,64 @@
-.intro-page-men {
-    background-image: url(https://images.unsplash.com/photo-1525334893167-477cff937ef8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+.gender-hero-men {
+    background-image: url(https://im.uniqlo.com/global-cms/spa/res63000d6c343998e01e22d4ff185ff84dfr.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
-    height: 93vh;
-    width: 73%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     color: white;
+    height: 100%;
+    width: 80%;
 }
 
-.intro-page-women {
+.gender-hero-women {
     background-image: url(/src/assets/img/girl-intro.avif);
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
-    height: 93vh;
-    width: 73%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     color: white;
-}
-
-.intro-page-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
     height: 100%;
-    margin-top: 5rem;
-}
-
-.intro-page-text {
     width: 80%;
-    margin-left: 7rem;
-    display: flex;
-    justify-content: flex-start;
 }
 
-.intro-page-box {
+.gender-hero {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 85vh;
+    padding: 5rem;
 }
 
-.intro-page-box h1 {
-    font-size: 1.9rem;
-    font-weight: 100;
-    margin: .3rem 0rem;
+.gender-hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
 }
 
-.intro-page-box h2 {
-    font-size: 1.7rem;
-    color: white;
-    font-weight: 400;
+.gender-hero-p1 {
+    font-size: 2rem;
+    margin: 0;
 }
 
-.intro-text-box {
-    margin: 2rem;
+.gender-hero div a {
+    cursor: pointer;
+    background-color: white;
+    padding: .5rem 1.8rem;
+    color: black;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: all .3s;
 }
-
-.intro-page-men h1 {
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    font-weight: 200;
-    color: white;
-}
-
 
 /* Clothing Categories */
 
 .gender-gate-box {
-    margin: 13rem 4rem;
+    margin: 10rem 4rem;
 }
 
 .gender-gate-box h2 {
@@ -157,7 +140,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 13rem 0;
+    margin: 10rem 0;
 }
 
 .man-feature-box h2 {

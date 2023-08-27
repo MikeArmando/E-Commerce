@@ -44,6 +44,10 @@
     height: 8rem;
 }
 
+.view-pro-img img:focus {
+    border: 2px solid;
+}
+
 .chart-box {
     display: flex;
     flex-wrap: wrap;
@@ -62,12 +66,17 @@
 .chart-box a {
     font-size: .7rem;
     margin: .3rem;
-    padding: .6rem 2.4rem;
+    padding: .8rem 2rem;
     min-width: 2rem;
     text-align: center;
     color: black;
     text-decoration: none;
     border: 1px solid rgb(216, 216, 216);
+}
+
+.chart-box a:focus {
+    background-color: black;
+    color: white;
 }
 
 .chart-text {
