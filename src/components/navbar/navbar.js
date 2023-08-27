@@ -165,10 +165,17 @@ export const Navbar = () => {
                     <h2>Your Cart</h2>
                     <div className='cart-content'>
                         <div className='cart-item'>
-                            <img src='https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31646.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds' alt=''></img>
+                            <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F69%2Fe8%2F69e81c9fc4199eb27b2ac256c439b6fee57916d3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img>
                             <div>
                                 <p>Black Denim Jacket</p>
-                                <p>1 x $49.00</p>
+                                <p className='side-cart-price'>1 x $49.00</p>
+                            </div>
+                        </div>
+                        <div className='cart-item'>
+                            <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa3%2Ff5%2Fa3f56f6e47160e931b78296bb9e479bfbcab3554.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img>
+                            <div>
+                                <p>Black Denim Jacket</p>
+                                <p className='side-cart-price'>1 x $49.00</p>
                             </div>
                         </div>
                     </div>
