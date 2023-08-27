@@ -98,14 +98,15 @@ export const Home = () => {
             <label id="view-products"></label>
 
             <section className="special-background">
-                <h1>New Clothes, New Passion.</h1>
+                <h2>New Clothes, New Passion.</h2>
                 <div className="special-box">
                     <div id='hidden' className="zoom zoom-item1">
                         <div className="item1"><Link to="/view" onClick={scrollToTop}><img className="item-img1 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35755.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box1">
-                            <p>Denim Bleach Jacket</p>
+                            <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name1'>Denim Bleach Jacket</Link>
+                            <p>$35.00</p>
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
@@ -114,7 +115,8 @@ export const Home = () => {
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37378.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box2">
-                            <p>Jogger Felpa Cargo</p>
+                            <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name2'>Jogger Felpa Cargo</Link>
+                            <p>$29.50</p>
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
@@ -123,7 +125,8 @@ export const Home = () => {
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34250.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box3">
-                            <p>Oxford Sweatshirt</p>
+                            <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name3'>Oxford Sweatshirt</Link>
+                            <p>$20.00</p>
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
@@ -132,8 +135,8 @@ export const Home = () => {
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36163.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box4">
-                            <p>Beige Bomber Jacket
-                            </p>
+                            <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name4'>Beige Bomber Jacket</Link>
+                            <p>$35.00</p>
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>

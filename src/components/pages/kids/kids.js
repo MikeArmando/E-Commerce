@@ -83,7 +83,7 @@ export const Kids = () => {
                     </div>
                 </div>
             </section>
-
+            
             <section className="man-feature-box">
                 <div>
                     <h2>New Arrivals</h2>

@@ -64,7 +64,8 @@
     }
 }
 
-/* . . . */
+
+/* Special */
 
 .special-background {
     height: 220vh;
@@ -78,8 +79,7 @@
     background-color: white;
 }
 
-.special-background h1 {
-    font-family: 'Poppins', sans-serif;
+.special-background h2 {
     font-weight: 100;
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@
 }
 
 .item-img4 {
-    width: 25rem;
+    width: 27rem;
 }
 
 .zoom img:hover {
@@ -138,7 +138,7 @@
 }
 
 .zoom-item4 {
-    height: 35rem;
+    height: 36rem;
     width: 22rem;
     position: absolute;
     bottom: 16%;
@@ -167,27 +167,44 @@
 
 .btnall-box {
     position: absolute;
-    left: -3rem;
 }
 
-.btnall-box1 p {
-    font-size: 1.2rem;
+.btnall-box1 {
+    left: -4rem;
 }
 
-.btnall-box2 p {
-    font-size: 2rem;
+.btnall-box2 {
+    left: -2rem;
 }
 
-.btnall-box3 p {
-    font-size: 2rem;
+.btnall-box3 {
+    left: -2rem;
 }
 
-.btnall-box4 p {
-    font-size: 1.2rem;
+.btnall-box4 {
+    left: -4rem;
 }
 
-.btnall-box p {
+.special-item-name {
+    text-decoration: none;
+    color: black;
     font-weight: 900;
+}
+
+.special-item-name1 {
+    font-size: 1.3rem;
+}
+
+.special-item-name2 {
+    font-size: 2rem;
+}
+
+.special-item-name3 {
+    font-size: 2rem;
+}
+
+.special-item-name4 {
+    font-size: 1.3rem;
 }
 
 .btnall {
