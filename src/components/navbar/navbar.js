@@ -146,8 +146,8 @@ export const Navbar = () => {
                         <li className="sub-li"><a href="#!">Sunglasses</a></li>
                     </ul>
                 </li>
-
             </ul>
+            
             <div className='icon-right'>
                 <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
                 <Link to="/fav" ><img className="nav-icon1" src={fav} alt=""></img></Link>
