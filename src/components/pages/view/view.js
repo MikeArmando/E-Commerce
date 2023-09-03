@@ -4,6 +4,13 @@ import star from '../../../assets/img/star.png'
 import fav from '../../../assets/img/icon-fav.png'
 
 export const View = () => {
+    // Sets the border in the images
+    const [viewImgB, setViewImgB] = useState(true);
+    const [viewImgB2, setViewImgB2] = useState(false);
+    const [viewImgB3, setViewImgB3] = useState(false);
+
+    // Sets the name of the color
+    const [imgColorName, setimgColorName] = useState('Black');
 
     const [img, setImg] = useState("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7b%2F37%2F7b376176aa5f77ba3461048b7aded33599567b87.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]")
     const [img2, setImg2] = useState("https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F1f%2Fb5%2F1fb5b03dea9d7148cc8b65dcdd5070afbed936a1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D")
@@ -19,6 +26,12 @@ export const View = () => {
         setImg4("https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F9a%2F11%2F9a11c7861ab0d27ce0100f571d97f36e6124fe8c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D")
         setImg5("https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F77%2F1e%2F771e5ee9eeebd2de49e58202456ffad3ba631bb7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D")
         setImg6("https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F8a%2F05%2F8a0561cf9e80d09cec9d784aee18c9a691bccbe4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BMEN_TSHIRTSTANKS_POLO%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D")
+
+        setViewImgB(true);
+        setViewImgB2(false);
+        setViewImgB3(false);
+
+        setimgColorName('Black');
     }
 
     const handleClickViewCreem = () => {
@@ -28,6 +41,12 @@ export const View = () => {
         setImg4("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F03%2F40%2F03409cf9af85da8740613c6e53ab7bc2ec22f50b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]")
         setImg5("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0a%2F1f%2F0a1f848d94223d6422b71a2184a42301c8ceec2b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]")
         setImg6("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F86%2F21%2F86217fddf680494152081271b9ad0d14c823dac7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]")
+
+        setViewImgB(false);
+        setViewImgB2(true);
+        setViewImgB3(false);
+
+        setimgColorName('Cream');
     }
 
     const handleClickViewBrown = () => {
@@ -37,6 +56,12 @@ export const View = () => {
         setImg4("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0d%2Ff9%2F0df96a51611852c2fe9995d0a49ea00d1196682b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/fullscreen]")
         setImg5("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa4%2Fbe%2Fa4bee7a704903ae2b02fee6872ec6cc407621875.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]")
         setImg6("https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F2c%2F082ca2a959ce71f712aad616047a06b5d74c3af8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]")
+
+        setViewImgB(false);
+        setViewImgB2(false);
+        setViewImgB3(true);
+
+        setimgColorName('Brown');
     }
 
     return (
@@ -54,11 +79,12 @@ export const View = () => {
                     <p className='view-info-name'>Playera polo Slim Fit</p>
                     <img src={fav} className='view-fav'></img>
                     <p>$39.00</p>
-                    <p className='view-color'>Black</p>
+                    <p className='view-color'>{imgColorName}</p>
                     <div className='view-pro-img'>
-                        <a href='#!' onClick={handleClickViewBlack}><div className='t'><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8a%2F05%2F8a0561cf9e80d09cec9d784aee18c9a691bccbe4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BMEN_TSHIRTSTANKS_POLO%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
-                        <a href='#!' onClick={handleClickViewCreem}><div className='t'><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F86%2F21%2F86217fddf680494152081271b9ad0d14c823dac7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
-                        <a href='#!' onClick={handleClickViewBrown}><div className='t'><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F2c%2F082ca2a959ce71f712aad616047a06b5d74c3af8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
+                        <a href='#!' onClick={handleClickViewBlack}><div className={`view-img-border ${viewImgB ? 'clicked' : ''}`}
+                        ><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8a%2F05%2F8a0561cf9e80d09cec9d784aee18c9a691bccbe4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BMEN_TSHIRTSTANKS_POLO%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
+                        <a href='#!' onClick={handleClickViewCreem}><div className={`view-img-border ${viewImgB2 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F86%2F21%2F86217fddf680494152081271b9ad0d14c823dac7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
+                        <a href='#!' onClick={handleClickViewBrown}><div className={`view-img-border ${viewImgB3 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F2c%2F082ca2a959ce71f712aad616047a06b5d74c3af8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
                     </div>
                     <p className='comms'>COMMENTS (12)<img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img></p>
                     <p className='size-text'>Size</p>

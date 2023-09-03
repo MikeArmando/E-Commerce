@@ -27,15 +27,6 @@
     position: relative;
 }
 
-.t {
-    display: inline-block;
-}
-
-.t:focus {
-    background-color: red;
-    border: 1px solid black;
-}
-
 .view-info-name {
     font-size: 1.2rem;
     font-weight: 900;
@@ -61,6 +52,15 @@
 
 .view-pro-img img {
     height: 8rem;
+}
+
+.view-img-border {
+    display: inline-block;
+    margin: .2rem;
+}
+
+.view-img-border.clicked {
+    border: 1.5px solid black;
 }
 
 .chart-box {
