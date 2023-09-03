@@ -109,3 +109,35 @@
     display: flex;
     flex-direction: column;
 }
+
+
+/* More */
+
+.kids-pro {
+    margin: 13rem 0;
+}
+
+.kids-pro h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2rem;
+    margin: 2rem 0rem;
+}
+
+.kids-pro-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.kids-pro img {
+    height: 27rem;
+}
+
+.kids-pro div a {
+    margin-top: .5rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

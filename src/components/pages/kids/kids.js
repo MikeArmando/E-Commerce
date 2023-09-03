@@ -1,7 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './kids.css'
 
 export const Kids = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'instant',
+        });
+    }
+
     return (
         <>
             <section className='kids-hero'>
@@ -83,7 +91,7 @@ export const Kids = () => {
                     </div>
                 </div>
             </section>
-            
+
             <section className="man-feature-box">
                 <div>
                     <h2>New Arrivals</h2>
@@ -108,6 +116,86 @@ export const Kids = () => {
                         src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40169.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                         alt=""></img></a>
                         <a href="#!">Bright Red vest</a>
+                    </div>
+                </div>
+            </section>
+
+            <section className='kids-pro'>
+                <div>
+                    <h2>More Clothes</h2>
+                </div>
+                <div className="kids-pro-row">
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40151.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40150.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40166.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Pants</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40147.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40171.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40153.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40152.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40173.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shorts</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38341.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shorts</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40146.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40160.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
+                    </div>
+                    <div><Link to="/view" onClick={scrollToTop}><img
+                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40158.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        alt=""></img></Link>
+                        <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
+                        <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                 </div>
             </section>
