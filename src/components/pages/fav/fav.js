@@ -24,9 +24,9 @@ export const Fav = () => {
                             <a className='fav-add' href='#!'>Add To Cart</a>
                         </div>
                     </div>
-                    <div><Link className='fav-pro-img' to="/view" onClick={scrollToTop}><img
+                    <div><Link className='fav-pro-img' to="/view" onClick={scrollToTop}><div className='t'><img
                         src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe9%2F93%2Fe993d41a8238272840aafcdd89af47ef9bb665c1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_bomberjackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]"
-                        alt=""></img></Link>
+                        alt=""></img></div></Link>
                         <div>
                             <Link className='fav-name' to="/view" onClick={scrollToTop}>Twill Cap</Link>
                             <p className='fav-price'>$25.00</p>

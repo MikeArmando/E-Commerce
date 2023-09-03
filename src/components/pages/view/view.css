@@ -23,11 +23,30 @@
 
 /* info */
 
-.view-info-box {}
+.view-info-box {
+    position: relative;
+}
+
+.t {
+    display: inline-block;
+}
+
+.t:focus {
+    background-color: red;
+    border: 1px solid black;
+}
 
 .view-info-name {
     font-size: 1.2rem;
     font-weight: 900;
+}
+
+.view-fav {
+    position: absolute;
+    cursor: pointer;
+    top: 1.2rem;
+    right: 0;
+    height: 2.2rem;
 }
 
 .view-color {
