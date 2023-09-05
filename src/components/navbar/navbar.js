@@ -12,10 +12,9 @@ export const Navbar = () => {
     const handleMenuToggle = () => {
         setMenuOpen(!isMenuOpen);
     };
-
-    const [showSidebar, setShowSidebar] = useState(false);
-
+    
     // Event handler function to toggle the sidebar visibility
+    const [showSidebar, setShowSidebar] = useState(false);
     const handleButtonClick = () => {
         setShowSidebar(!showSidebar);
     };
@@ -147,7 +146,7 @@ export const Navbar = () => {
                     </ul>
                 </li>
             </ul>
-            
+
             <div className='icon-right'>
                 <Link to="/account" onClick={scrollToTop}><img className="nav-icon1" src={user} alt=""></img></Link>
                 <Link to="/fav" ><img className="nav-icon1" src={fav} alt=""></img></Link>
@@ -167,23 +166,28 @@ export const Navbar = () => {
                         <div className='cart-item'>
                             <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F69%2Fe8%2F69e81c9fc4199eb27b2ac256c439b6fee57916d3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img>
                             <div>
-                                <p>Black Denim Jacket</p>
-                                <p className='side-cart-price'>1 x $49.00</p>
-                            </div>
+                                <p className='side-cart-title'>Black Denim Jacket</p>
+                                <p className='side-cart-price'>$49.00</p>
+                                <p className='side-cart-amount'>Amount: 1</p>
+                                <p className='side-cart-color'>Color: Black</p>
+                                <p className='side-cart-size'>Size: M</p>                            </div>
                         </div>
                         <div className='cart-item'>
                             <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa3%2Ff5%2Fa3f56f6e47160e931b78296bb9e479bfbcab3554.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img>
                             <div>
-                                <p>Black Denim Jacket</p>
-                                <p className='side-cart-price'>1 x $49.00</p>
+                                <p className='side-cart-title'>Black Denim Jacket</p>
+                                <p className='side-cart-price'>$49.00</p>
+                                <p className='side-cart-amount'>Amount: 1</p>
+                                <p className='side-cart-color'>Color: Black</p>
+                                <p className='side-cart-size'>Size: M</p>
                             </div>
                         </div>
                     </div>
                     <div className='cart-check'>
                         <p>Total: $49.00</p>
                         <div>
-                            <Link to="/cart" onClick={scrollToTop}>View Cart</Link>
                             <Link onClick={scrollToTop}>Check Out</Link>
+                            <Link to="/cart" onClick={scrollToTop}>View Cart</Link>
                         </div>
                     </div>
                 </div>
