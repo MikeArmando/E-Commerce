@@ -2,15 +2,15 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar } from './components/navbar/navbar'
 import { Footer } from './components/footer/footer'
-import { Home } from './components/pages/home/home'
-import { Men } from './components/pages/men/men'
-import { Women } from './components/pages/women/women'
-import { Kids } from './components/pages/kids/kids'
-import { Accesories } from './components/pages/accesories/accesories'
-import { Cart } from './components/pages/cart/cart'
-import { Account } from './components/pages/account/account'
-import { Fav } from './components/pages/fav/fav'
-import { View } from './components/pages/view/view'
+import { Home } from '../src/pages/home/home'
+import { Men } from '../src/pages/men/men'
+import { Women } from '../src/pages/women/women'
+import { Kids } from '../src/pages/kids/kids'
+import { Accesories } from '../src/pages/accesories/accesories'
+import { Cart } from '../src/pages/cart/cart'
+import { Account } from '../src/pages/account/account'
+import { Fav } from '../src/pages/fav/fav'
+import { View } from '../src/pages/view/view'
 
 const App = () => {
   return (

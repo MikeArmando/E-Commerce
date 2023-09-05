@@ -1,7 +1,7 @@
 import './view.css'
 import { useState } from 'react'
-import star from '../../../assets/img/star.png'
-import fav from '../../../assets/img/icon-fav.png'
+import star from '../../assets/img/star.png'
+import fav from '../../assets/img/icon-fav.png'
 
 export const View = () => {
     // Sets the border in the images
