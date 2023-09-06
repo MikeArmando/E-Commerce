@@ -14,8 +14,8 @@
 table {
     max-height: 25rem;
     border: 1px solid rgba(193, 193, 193, 0.511);
-    padding: 3rem 1rem;
-    border-spacing: 5rem 0;
+    padding: 2rem 0;
+    border-spacing: 4rem 0;
 }
 
 table th {
@@ -54,14 +54,15 @@ table th {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.1rem;
 }
 
 table img {
-    height: 10rem;
+    height: 14rem;
 }
 
 .img-text p {
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 
 
@@ -72,16 +73,19 @@ table img {
     flex-direction: column;
     justify-content: center;
     border: 1px solid rgba(193, 193, 193, 0.511);
-    padding: 1rem 8rem;
+    min-width: 18rem;
+    padding: 1rem 5rem;
 }
 
 .cart-info h2 {
+    text-align: center;
     font-size: 1.3rem;
     text-transform: uppercase;
 }
 
 .cart-info div {
-    margin: 4rem 0;
+    width: 100%;
+    margin: 3rem 0;
 }
 
 .cart-info div p {
@@ -89,7 +93,12 @@ table img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgb(78, 78, 78);
+}
+
+.cart-checkout {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .cart-info div a {
@@ -106,4 +115,20 @@ table img {
 .cart-info div a:hover {
     background-color: white;
     color: black;
+}
+
+.cart-order-items {
+    color: rgb(113, 113, 113);
+    margin: 0;
+}
+
+.cart-total {
+    margin: 0;
+}
+
+.cart-line::before {
+    content: '';
+    width: 100%;
+    height: .1rem;
+    background-color: black;
 }

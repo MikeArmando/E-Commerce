@@ -41,7 +41,6 @@ export const Cart = () => {
     return (
         <>
             <section className='cart-page-box'>
-
                 <div className='cart-items-box'>
                     <table className='cart-category'>
                         <tr>
@@ -68,12 +67,13 @@ export const Cart = () => {
                 <div className='cart-info'>
                     <h2>Order Summary</h2>
                     <div>
-                        <p>Subtotal: <p>$49.00</p></p>
-                        <p>Shipping: <p>$10.00</p></p>
-                        <p>Estimated tax: <p>$6.00</p></p>
-                        <p>Order Total: <p>$59.00</p></p>
+                        <p className='cart-order-items'>Subtotal: <p>$49.00</p></p>
+                        <p className='cart-order-items'>Shipping: <p>$10.00</p></p>
+                        <p className='cart-order-items'>Estimated tax: <p>$6.00</p></p>
+                        <p className='cart-line'></p>
+                        <p className='cart-total'>Total: <p>$59.00</p></p>
                     </div>
-                    <div>
+                    <div className='cart-checkout'>
                         <a href='#!'>CheckOut</a>
                     </div>
                 </div>
