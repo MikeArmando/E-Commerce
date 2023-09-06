@@ -246,18 +246,19 @@ nav a {
 
 .side-cart-title {
     font-size: .9rem;
-    margin-bottom: .5rem;
+    margin-bottom: 0rem;
 }
 
 .side-cart-price {
     font-size: .9rem;
-    margin: 0;
+    margin: .1rem 0;
 }
 
 .side-cart-amount {
     font-size: .8rem;
     color: rgb(94, 94, 94);
-    margin: .1rem 0;
+    margin-top: .3rem;
+    margin-bottom: 0;
 }
 
 .side-cart-color {
@@ -293,6 +294,7 @@ nav a {
     text-align: center;
     cursor: pointer;
     width: 75%;
+    font-weight: 900;
     margin: .2rem 0;
     border: 1px solid;
     padding: 1rem;
