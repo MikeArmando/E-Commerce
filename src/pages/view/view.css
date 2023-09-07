@@ -95,11 +95,6 @@
     border: 1px solid rgb(216, 216, 216);
 }
 
-.chart-box a:focus {
-    background-color: black;
-    color: white;
-}
-
 .chart-text {
     font-family: 'Poppins', sans-serif;
     font-size: .9rem;

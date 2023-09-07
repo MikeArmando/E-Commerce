@@ -9,6 +9,85 @@ export const View = () => {
     const [viewImgB2, setViewImgB2] = useState(false);
     const [viewImgB3, setViewImgB3] = useState(false);
 
+    // changes the background of the size buttons to black and the text to white
+    const [backgroundColor, setbackgroundColor] = useState('white');
+    const [backgroundColor2, setbackgroundColor2] = useState('white');
+    const [backgroundColor3, setbackgroundColor3] = useState('white');
+    const [backgroundColor4, setbackgroundColor4] = useState('white');
+    const [backgroundColor5, setbackgroundColor5] = useState('white');
+
+    const [textColorBtn, settextColorBtn] = useState('black');
+    const [textColorBtn2, settextColorBtn2] = useState('black');
+    const [textColorBtn3, settextColorBtn3] = useState('black');
+    const [textColorBtn4, settextColorBtn4] = useState('black');
+    const [textColorBtn5, settextColorBtn5] = useState('black');
+
+
+    const backgroundToBlack = () => {
+        setbackgroundColor('black')
+        settextColorBtn('white')
+        setbackgroundColor2('')
+        settextColorBtn2('')
+        setbackgroundColor3('')
+        settextColorBtn3('')
+        setbackgroundColor4('')
+        settextColorBtn4('')
+        setbackgroundColor5('')
+        settextColorBtn5('')
+    }
+
+    const backgroundToBlack2 = () => {
+        setbackgroundColor2('black')
+        settextColorBtn2('white')
+        setbackgroundColor('')
+        settextColorBtn('')
+        setbackgroundColor3('')
+        settextColorBtn3('')
+        setbackgroundColor4('')
+        settextColorBtn4('')
+        setbackgroundColor5('')
+        settextColorBtn5('')
+    }
+
+    const backgroundToBlack3 = () => {
+        setbackgroundColor3('black')
+        settextColorBtn3('white')
+        setbackgroundColor('')
+        settextColorBtn('')
+        setbackgroundColor2('')
+        settextColorBtn2('')
+        setbackgroundColor4('')
+        settextColorBtn4('')
+        setbackgroundColor5('')
+        settextColorBtn5('')
+    }
+
+    const backgroundToBlack4 = () => {
+        setbackgroundColor4('black')
+        settextColorBtn4('white')
+        setbackgroundColor('')
+        settextColorBtn('')
+        setbackgroundColor2('')
+        settextColorBtn2('')
+        setbackgroundColor3('')
+        settextColorBtn3('')
+        setbackgroundColor5('')
+        settextColorBtn5('')
+    }
+
+    const backgroundToBlack5 = () => {
+        setbackgroundColor5('black')
+        settextColorBtn5('white')
+        setbackgroundColor('')
+        settextColorBtn('')
+        setbackgroundColor2('')
+        settextColorBtn2('')
+        setbackgroundColor3('')
+        settextColorBtn3('')
+        setbackgroundColor4('')
+        settextColorBtn4('')
+    }
+
     // Sets the name of the color
     const [imgColorName, setimgColorName] = useState('Black');
 
@@ -89,11 +168,11 @@ export const View = () => {
                     <p className='comms'>COMMENTS (12)<img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img></p>
                     <p className='size-text'>Size</p>
                     <div className='chart-box'>
-                        <a href='#!'>XCH</a>
-                        <a href='#!'>CH</a>
-                        <a href='#!'>M</a>
-                        <a href='#!'>G</a>
-                        <a href='#!'>XG</a>
+                        <a href='#!' onClick={backgroundToBlack} style={{ backgroundColor: backgroundColor, color: textColorBtn }}>XCH</a>
+                        <a href='#!' onClick={backgroundToBlack2} style={{ backgroundColor: backgroundColor2, color: textColorBtn2 }}>CH</a>
+                        <a href='#!' onClick={backgroundToBlack3} style={{ backgroundColor: backgroundColor3, color: textColorBtn3 }}>M</a>
+                        <a href='#!' onClick={backgroundToBlack4} style={{ backgroundColor: backgroundColor4, color: textColorBtn4 }}>G</a>
+                        <a href='#!' onClick={backgroundToBlack5} style={{ backgroundColor: backgroundColor5, color: textColorBtn5 }}>XG</a>
                     </div>
                     <a href='#!' className='chart-text'>Size chart</a>
                     <a href='#!' className='add-cart'>Add to cart</a>
