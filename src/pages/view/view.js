@@ -165,7 +165,7 @@ export const View = () => {
                         <a href='#!' onClick={handleClickViewCreem}><div className={`view-img-border ${viewImgB2 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F86%2F21%2F86217fddf680494152081271b9ad0d14c823dac7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
                         <a href='#!' onClick={handleClickViewBrown}><div className={`view-img-border ${viewImgB3 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F2c%2F082ca2a959ce71f712aad616047a06b5d74c3af8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
                     </div>
-                    <p className='comms'>COMMENTS (12)<img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img></p>
+                    <p className='comms'>COMMENTS (122)<img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img></p>
                     <p className='size-text'>Size</p>
                     <div className='chart-box'>
                         <a href='#!' onClick={backgroundToBlack} style={{ backgroundColor: backgroundColor, color: textColorBtn }}>XCH</a>
