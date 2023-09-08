@@ -214,6 +214,11 @@
     text-decoration: none;
 }
 
+@media (max-width: 800px) {
+    .feature-name {
+        margin-bottom: 4rem;
+    }
+}
 
 /* Collection */
 

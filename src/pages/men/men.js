@@ -99,22 +99,22 @@ export const Men = () => {
                     <div><Link to="/view" onClick={scrollToTop}><img
                         src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35885.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                         alt=""></img></Link>
-                        <Link to="/view" onClick={scrollToTop}>T-shirt Absence Of Fear</Link>
+                        <Link className='feature-name' to="/view" onClick={scrollToTop}>T-shirt Absence Of Fear</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
                         src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_26424.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                         alt=""></img></Link>
-                        <Link to="/view" onClick={scrollToTop}>Jeans Slim Tapered Dark</Link>
+                        <Link className='feature-name' to="/view" onClick={scrollToTop}>Jeans Slim Tapered Dark</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
                         src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35382.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                         alt=""></img></Link>
-                        <Link to="/view" onClick={scrollToTop}>Jogger Cargo</Link>
+                        <Link className='feature-name' to="/view" onClick={scrollToTop}>Jogger Cargo</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
                         src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_32640.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                         alt=""></img></Link>
-                        <Link to="/view" onClick={scrollToTop}>Grey Denim Jacket</Link>
+                        <Link className='feature-name' to="/view" onClick={scrollToTop}>Grey Denim Jacket</Link>
                     </div>
                 </div>
             </section>

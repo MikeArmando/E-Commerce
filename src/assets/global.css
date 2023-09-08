@@ -19,3 +19,13 @@ body {
         opacity: 1;
     }
 }
+
+@keyframes transform {
+    from {
+        transform: translateX(8rem);
+    }
+
+    to {
+        transform: translateX(0rem);
+    }
+}
