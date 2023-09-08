@@ -1,54 +1,32 @@
 import './cart.css'
 import luv from '../../assets/img/icon-fav.png'
+import trash from '../../assets/img/trash.png'
 import { useState } from 'react'
 
 export const Cart = () => {
-    // changes the number of items
-    const [countCart, setCountCart] = useState(1);
-    const [countCartS, setCountCartS] = useState(1);
+    // eliminates the item
+    const [trashBtn, setTrashBtn] = useState(true);
+    const [trashBtn2, setTrashBtn2] = useState(true);
 
-    const handleCountCartPlus = () => {
-        setCountCart(countCart + 1)
+    const eliminateBtn = () => {
+        setTrashBtn(false);
     };
 
-    const handleCountCartPlusSec = () => {
-        setCountCartS(countCartS + 1)
-    };
-
-    const handleCountCartMinus = () => {
-        setCountCart(countCart - 1)
-
-        // makes it so count can only go down to 0
-        if (countCart === 0) {
-            setCountCart(countCart)
-
-        } else {
-            setCountCart(countCart - 1)
-        }
-    };
-
-    const handleCountCartMinusSec = () => {
-        setCountCartS(countCartS - 1)
-
-        // makes it so count can only go down to 0
-        if (countCartS === 0) {
-            setCountCartS(countCartS)
-
-        } else {
-            setCountCartS(countCartS - 1)
-        }
+    const eliminateBtn2 = () => {
+        setTrashBtn2(false);
     };
 
     return (
         <>
             <section className='cart-page-box'>
                 <div className='cart-items-box'>
-                    <div className='cart-item-box'>
+                    <div className='cart-item-box' style={{ display: trashBtn ? 'flex' : 'none' }}>
                         <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img>
                         <div className='cart-item-info'>
                             <div className='cart-name-box'>
                                 <p>Grey Sweatshirt</p>
                                 <p>$29.00</p>
+                                <img src={trash} onClick={eliminateBtn}></img>
                             </div>
                             <div className='cart-pro-info'>
                                 <p>ID Product: 105541</p>
@@ -75,12 +53,13 @@ export const Cart = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='cart-item-box'>
+                    <div className='cart-item-box' style={{ display: trashBtn2 ? 'flex' : 'none' }}>
                         <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img>
                         <div className='cart-item-info'>
                             <div className='cart-name-box'>
                                 <p>Grey Sweatshirt</p>
                                 <p>$29.00</p>
+                                <img src={trash} onClick={eliminateBtn2}></img>
                             </div>
                             <div className='cart-pro-info'>
                                 <p>ID Product: 105541</p>

@@ -8,10 +8,11 @@
 
 .cart-items-box {
     padding: 0rem;
-    min-width: 37rem;
+    min-width: 40rem;
 }
 
 .cart-item-box {
+    position: relative;
     margin: 4rem 0;
 }
 
@@ -52,6 +53,14 @@
     margin: 0;
 }
 
+.cart-name-box img {
+    cursor: pointer;
+    position: absolute;
+    top: 1.7rem;
+    right: 0;
+    height: 1.5rem;
+}
+
 .cart-pro-info {
     display: flex;
     gap: 3rem;
@@ -89,11 +98,16 @@
     .cart-item-box {
         display: flex;
         flex-direction: row;
+        margin: 1rem 1rem;
     }
 
     .cart-page-box {
         grid-template-columns: 1fr;
         padding: 10rem .5rem;
+    }
+
+    .cart-pro-info {
+        gap: 2rem;
     }
 }
 
