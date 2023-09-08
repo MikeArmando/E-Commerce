@@ -12,7 +12,7 @@ export const Navbar = () => {
     const handleMenuToggle = () => {
         setMenuOpen(!isMenuOpen);
     };
-    
+
     // Event handler function to toggle the sidebar visibility
     const [showSidebar, setShowSidebar] = useState(false);
     const handleButtonClick = () => {
@@ -25,6 +25,7 @@ export const Navbar = () => {
             behavior: 'instant',
         });
 
+        setMenuOpen(false);
         setShowSidebar(false);
     }
 

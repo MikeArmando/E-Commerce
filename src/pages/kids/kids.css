@@ -12,6 +12,7 @@
     background-size: cover;
     text-decoration: none;
     display: flex;
+    background-position: center;
     justify-content: center;
     align-items: flex-end;
     color: white;
@@ -110,6 +111,15 @@
     flex-direction: column;
 }
 
+@media (max-width: 1250px) {
+    .kids-hero-img {
+        width: 100%;
+    }
+
+    .kids-hero {
+        padding: 4.3rem 0;
+    }
+}
 
 /* More */
 
@@ -140,4 +150,16 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+@media (max-width: 1250px) {
+    .kids-pro-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px) {
+    .kids-pro-row {
+        grid-template-columns: 1fr;
+    }
 }
