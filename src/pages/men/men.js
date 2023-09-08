@@ -131,7 +131,7 @@ export const Men = () => {
                             <a href="#!">View Collection</a>
                         </div>
                     </div>
-                    <div className="gender-clothes-img">
+                    <div className="gender-clothes-img gender-clothes-img-rev">
                         <div>
                             <h3>Bombers</h3>
                             <a href="#!">View Collection</a>
@@ -147,7 +147,6 @@ export const Men = () => {
             <section className="gender-clothes-box">
                 <h3>Jeans</h3>
                 <div className="gender-clothes-row">
-
                     <div className="gender-main-item">
                         <Link to="/view" onClick={scrollToTop}><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34512.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
@@ -155,7 +154,6 @@ export const Men = () => {
                         <label><Link to="/view" onClick={scrollToTop}>Slim Stone Jeans Medium</Link></label>
                         <label className='main-item-price'>$29</label>
                     </div>
-
                     <div className="gender-item-box">
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img

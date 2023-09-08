@@ -4,6 +4,7 @@
     background-size: cover;
     text-decoration: none;
     display: flex;
+    background-position: center;
     justify-content: center;
     align-items: flex-end;
     color: white;
@@ -17,6 +18,7 @@
     background-size: cover;
     text-decoration: none;
     display: flex;
+    background-position: center;
     justify-content: center;
     align-items: flex-end;
     color: white;
@@ -55,10 +57,24 @@
     transition: all .3s;
 }
 
+@media (max-width: 1250px) {
+    .gender-hero-men {
+        width: 100%;
+    }
+
+    .gender-hero-women {
+        width: 100%;
+    }
+
+    .gender-hero {
+        padding: 4.3rem 0;
+    }
+}
+
 /* Clothing Categories */
 
 .gender-gate-box {
-    margin: 10rem 4rem;
+    margin: 10rem 2rem;
 }
 
 .gender-gate-box h2 {
@@ -129,9 +145,29 @@
 .category-center label a {
     color: black;
     text-decoration: none;
-
 }
 
+@media (max-width: 1300px) {
+    .gender-gate-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 2rem 0rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gender-gate-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 2rem 0rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .gender-gate-row {
+        grid-template-columns: 1fr;
+    }
+}
 
 /* feature */
 
@@ -153,6 +189,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .man-feature-row div {
@@ -179,6 +216,7 @@
 
 
 /* Collection */
+
 .gender-collection-box {
     margin: 17rem 0;
 }
@@ -207,6 +245,28 @@
 .gender-collection-row img {
     height: 45rem;
 }
+
+@media (max-width: 960px) {
+    .gender-collection-box {
+        margin: 15rem 0;
+    }
+
+    .gender-clothes-img {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .gender-clothes-img-rev {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 660px) {
+    .gender-collection-row img {
+        height: 30rem;
+    }
+}
+
 
 
 /* Clothing items */
@@ -295,4 +355,34 @@
 .gender-items div label {
     font-size: 1.2rem;
     color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1500px) {
+    .gender-clothes-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0rem 2rem;
+    }
+
+    .gender-main-item {
+        display: none;
+    }
+
+    .gender-item-box {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 880px) {
+    .gender-item-box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 650px) {
+    .gender-item-box {
+        grid-template-columns: 1fr;
+    }
 }

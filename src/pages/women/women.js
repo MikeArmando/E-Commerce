@@ -130,7 +130,7 @@ export const Women = () => {
                             <a href="#!">View Collection</a>
                         </div>
                     </div>
-                    <div className="gender-clothes-img">
+                    <div className="gender-clothes-img gender-clothes-img-rev">
                         <div>
                             <h3>T-shirts licenses</h3>
                             <a href="#!">View Collection</a>

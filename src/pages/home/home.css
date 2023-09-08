@@ -40,16 +40,18 @@
     color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+    .background1 div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 1rem;
+    }
+
     .intro-text {
         text-align: center;
-        letter-spacing: .5rem;
-        font-size: 2rem;
-        padding: 0;
-        margin: 0;
-        margin-top: 8rem;
-        margin-left: .4rem;
-        color: white;
+        margin-top: 18rem;
     }
 
     .shop-btn {
@@ -268,10 +270,22 @@
 
     .btnall-box {
         position: static;
+        text-align: center;
+    }
+
+    .special-item-name {
+        text-decoration: none;
+        color: black;
+        font-weight: 900;
+        font-size: 1.8rem;
     }
 }
 
 @media (max-width: 600px) {
+
+    .special-background h2 {
+        text-align: center;
+    }
 
     .special-background {
         height: auto;
@@ -289,6 +303,15 @@
         width: 24rem;
     }
 }
+
+@media (max-width: 400px) {
+    .allSpecialItems {
+        width: 21.4rem;
+        padding: 0;
+        margin: 0;
+    }
+}
+
 
 /* Collection */
 
@@ -372,5 +395,12 @@
     .collection-title-box p {
         display: flex;
         justify-content: center;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .collection-img-box div a img {
+        height: 30rem;
     }
 }
