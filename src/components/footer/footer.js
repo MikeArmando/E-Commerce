@@ -49,7 +49,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <label for="">&copy; Montano Valencia Mike Armando 2023 | Todos los Derechos Reservados</label>
+                <label>&copy; Montano Valencia Mike Armando 2023 | Todos los Derechos Reservados</label>
             </footer>
         </div>
     )

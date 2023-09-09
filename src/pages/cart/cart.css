@@ -98,12 +98,12 @@
     .cart-item-box {
         display: flex;
         flex-direction: row;
-        margin: 1rem 1rem;
+        margin: 1rem 1.2rem;
     }
 
     .cart-page-box {
         grid-template-columns: 1fr;
-        padding: 10rem .5rem;
+        padding: 10rem 0;
     }
 
     .cart-pro-info {

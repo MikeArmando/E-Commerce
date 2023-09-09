@@ -1,9 +1,5 @@
 .footer {
-    height: 50vh;
-}
-
-.footer-box {
-    height: 90%;
+    margin: 5rem 0;
 }
 
 .footer-box {
@@ -138,20 +134,12 @@
 }
 
 footer label {
+    display: block;
     margin: 1rem;
     font-size: .8rem;
-
 }
 
 @media (max-width: 800px) {
-    .footer {
-        height: 170vh;
-    }
-
-    .footer-box {
-        height: 90%;
-    }
-
     .footer-box {
         display: flex;
         flex-direction: column;
@@ -301,14 +289,6 @@ footer label {
 }
 
 @media (max-width: 400px) {
-    .footer {
-        height: 170vh;
-    }
-
-    .footer-box {
-        height: 90%;
-    }
-
     .footer-box {
         display: flex;
         flex-direction: column;

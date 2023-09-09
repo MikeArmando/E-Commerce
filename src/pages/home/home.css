@@ -306,7 +306,7 @@
 
 @media (max-width: 400px) {
     .allSpecialItems {
-        width: 21.4rem;
+        width: 20.5rem;
         padding: 0;
         margin: 0;
     }
@@ -401,6 +401,6 @@
 
 @media (max-width: 400px) {
     .collection-img-box div a img {
-        height: 30rem;
+        height: 28rem;
     }
 }

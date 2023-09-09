@@ -163,7 +163,7 @@ nav a {
 
 @media (max-width: 900px) {
     nav label {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-left: 1.5rem;
     }
 
@@ -195,6 +195,11 @@ nav a {
 
     .navbar-ul :hover>.sub-menu-box {
         display: none;
+    }
+
+    .nav-icon1 {
+        margin: .8rem .4rem;
+        height: 1.7rem;
     }
 }
 
