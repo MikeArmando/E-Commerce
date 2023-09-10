@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-Commerce/static/css/main.d31bcb99.css",
-    "main.js": "/E-Commerce/static/js/main.cbae8ee8.js",
+    "main.css": "/E-Commerce/static/css/main.ddcc3646.css",
+    "main.js": "/E-Commerce/static/js/main.833026e8.js",
     "static/js/787.7b445511.chunk.js": "/E-Commerce/static/js/787.7b445511.chunk.js",
     "static/media/hero-home.jpg": "/E-Commerce/static/media/hero-home.2b7a142f962fa31f8d10.jpg",
     "static/media/girl-intro.avif": "/E-Commerce/static/media/girl-intro.15d3a482b967272aae4e.avif",
@@ -10,12 +10,12 @@
     "static/media/icon-fav.png": "/E-Commerce/static/media/icon-fav.2d76b7035982a18ac2f3.png",
     "static/media/star.png": "/E-Commerce/static/media/star.4794f21b6600d79bb04a.png",
     "index.html": "/E-Commerce/index.html",
-    "main.d31bcb99.css.map": "/E-Commerce/static/css/main.d31bcb99.css.map",
-    "main.cbae8ee8.js.map": "/E-Commerce/static/js/main.cbae8ee8.js.map",
+    "main.ddcc3646.css.map": "/E-Commerce/static/css/main.ddcc3646.css.map",
+    "main.833026e8.js.map": "/E-Commerce/static/js/main.833026e8.js.map",
     "787.7b445511.chunk.js.map": "/E-Commerce/static/js/787.7b445511.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d31bcb99.css",
-    "static/js/main.cbae8ee8.js"
+    "static/css/main.ddcc3646.css",
+    "static/js/main.833026e8.js"
   ]
 }
