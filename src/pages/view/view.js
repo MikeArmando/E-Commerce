@@ -22,7 +22,6 @@ export const View = () => {
     const [textColorBtn4, settextColorBtn4] = useState('black');
     const [textColorBtn5, settextColorBtn5] = useState('black');
 
-
     const backgroundToBlack = () => {
         setbackgroundColor('black')
         settextColorBtn('white')
@@ -148,12 +147,13 @@ export const View = () => {
             <section className='view-box'>
                 <div className='view-img-box'>
                     <a href='#!'><img src={img}></img></a>
-                    <a href='#!'><img src={img2}></img></a>
-                    <a href='#!'><img src={img3}></img></a>
-                    <a href='#!'><img src={img4}></img></a>
-                    <a href='#!'><img src={img5}></img></a>
-                    <a href='#!'><img src={img6}></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img2}></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img3}></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img4}></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img5}></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img6}></img></a>
                 </div>
+
                 <div className='view-info-box'>
                     <p className='view-info-name'>Playera polo Slim Fit</p>
                     <img src={fav} className='view-fav'></img>
