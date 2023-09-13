@@ -94,7 +94,6 @@
 }
 
 @media (max-width: 950px) {
-
     .cart-item-box {
         display: flex;
         flex-direction: row;

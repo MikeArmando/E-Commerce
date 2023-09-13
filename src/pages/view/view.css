@@ -33,6 +33,10 @@
 
 @media (max-width: 860px) {
     .view-box {
+        padding: 8rem 1rem;
+    }
+
+    .view-box {
         grid-template-columns: 1fr;
     }
 
@@ -161,6 +165,3 @@
     color: black;
     border: 2px solid black;
 }
-
-
-@media (max-width: 860px) {}

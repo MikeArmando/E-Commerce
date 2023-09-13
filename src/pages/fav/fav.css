@@ -70,3 +70,14 @@
     color: black;
     border: 1px solid black;
 }
+
+
+@media (max-width: 750px) {
+    .fav-box h2 {
+        margin: 0rem;
+    }
+
+    .fav-pro-img {
+        margin-top: 5rem;
+    }
+}
