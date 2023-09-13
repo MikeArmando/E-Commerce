@@ -1,5 +1,6 @@
 import './cart.css'
-import luv from '../../assets/img/icon-fav.png'
+import fav from '../../assets/img/icon-fav.png'
+import favRed from '../../assets/img/Untitled design.png'
 import trash from '../../assets/img/trash.png'
 import { useState } from 'react'
 
@@ -14,6 +15,30 @@ export const Cart = () => {
 
     const eliminateBtn2 = () => {
         setTrashBtn2(false);
+    };
+
+    // toggles the fav icon
+    const [favColor, setfavColor] = useState(0)
+    const [favColor2, setfavColor2] = useState(0)
+
+    const images = [
+        fav,
+        favRed,
+    ];
+
+    const images2 = [
+        fav,
+        favRed,
+    ];
+
+    const favRedChange = () => {
+        // Increment the index to display the next image
+        setfavColor((prevIndex) => (prevIndex + 1) % images.length);
+    };
+
+    const favRedChange2 = () => {
+        // Increment the index to display the next image
+        setfavColor2((prevIndex) => (prevIndex + 1) % images2.length);
     };
 
     return (
@@ -36,7 +61,7 @@ export const Cart = () => {
                             <div className='fav-count-box'>
                                 <div className='cart-fav-box'>
                                     <a href='#!'>
-                                        <img src={luv}>
+                                        <img src={images[favColor]} onClick={favRedChange} alt={`Image ${favColor + 1}`}>
                                         </img>
                                     </a>
                                 </div>
@@ -69,7 +94,7 @@ export const Cart = () => {
                             <div className='fav-count-box'>
                                 <div className='cart-fav-box'>
                                     <a href='#!'>
-                                        <img src={luv}>
+                                        <img src={images[favColor2]} onClick={favRedChange2} alt={`Image ${favColor2 + 1}`}>
                                         </img>
                                     </a>
                                 </div>

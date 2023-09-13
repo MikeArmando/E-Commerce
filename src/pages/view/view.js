@@ -1,7 +1,8 @@
 import './view.css'
-import { useState } from 'react'
+import { useState, useTransition } from 'react'
 import star from '../../assets/img/star.png'
 import fav from '../../assets/img/icon-fav.png'
+import favRed from '../../assets/img/Untitled design.png'
 
 export const View = () => {
     // Sets the border in the images
@@ -142,6 +143,19 @@ export const View = () => {
         setimgColorName('Brown');
     }
 
+    // toggles the fav icon
+    const [favColor, setfavColor] = useState(0)
+
+    const images = [
+        fav,
+        favRed,
+    ];
+
+    const favRedChange = () => {
+        // Increment the index to display the next image
+        setfavColor((prevIndex) => (prevIndex + 1) % images.length);
+    };
+
     return (
         <>
             <section className='view-box'>
@@ -156,7 +170,7 @@ export const View = () => {
 
                 <div className='view-info-box'>
                     <p className='view-info-name'>Playera polo Slim Fit</p>
-                    <img src={fav} className='view-fav'></img>
+                    <img src={images[favColor]} className='view-fav' onClick={favRedChange} alt={`Image ${favColor + 1}`}></img>
                     <p>$39.00</p>
                     <p className='view-color'>{imgColorName}</p>
                     <div className='view-pro-img'>

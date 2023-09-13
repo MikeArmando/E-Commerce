@@ -95,9 +95,8 @@
 
 @media (max-width: 950px) {
     .cart-item-box {
-        display: flex;
         flex-direction: row;
-        margin: 1rem 1.2rem;
+        margin: 1rem 1rem;
     }
 
     .cart-page-box {
@@ -106,7 +105,7 @@
     }
 
     .cart-pro-info {
-        gap: 2rem;
+        gap: 1rem;
     }
 }
 

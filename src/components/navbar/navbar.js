@@ -7,16 +7,18 @@ import cart from '../.././/assets/img/icon-cart.png'
 
 export const Navbar = () => {
 
-    const [isMenuOpen, setMenuOpen] = useState(false);
+    const [isCartOpen, setCartOpen] = useState(false);
 
     const handleMenuToggle = () => {
-        setMenuOpen(!isMenuOpen);
+        setCartOpen(!isCartOpen);
+        setShowSidebar(false);
     };
 
     // Event handler function to toggle the sidebar visibility
     const [showSidebar, setShowSidebar] = useState(false);
     const handleButtonClick = () => {
         setShowSidebar(!showSidebar);
+        setCartOpen(false);
     };
 
     const scrollToTop = () => {
@@ -25,14 +27,14 @@ export const Navbar = () => {
             behavior: 'instant',
         });
 
-        setMenuOpen(false);
+        setCartOpen(false);
         setShowSidebar(false);
     }
 
     return (
         <nav>
             <label><Link to="/E-Commerce" onClick={scrollToTop}>Fit & Casual</Link></label>
-            <ul className={`navbar-ul ${isMenuOpen ? 'active' : ''}`}>
+            <ul className={`navbar-ul ${isCartOpen ? 'active' : ''}`}>
                 <li><Link to="/men" className="le" onClick={scrollToTop}>Men</Link>
                     <ul className="sub-menu-box">
                         <li className="sub-menu-title"><a href="#!">Collection</a></li>
@@ -193,7 +195,6 @@ export const Navbar = () => {
                     </div>
                 </div>
             </div>
-
         </nav>
     )
 }
