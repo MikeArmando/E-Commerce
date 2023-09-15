@@ -312,3 +312,9 @@ nav a {
     background-color: white;
     color: black;
 }
+
+@media (max-width: 900px) {
+    .sidebar {
+        width: 100%;
+    }
+}

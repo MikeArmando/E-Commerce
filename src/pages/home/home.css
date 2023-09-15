@@ -305,8 +305,12 @@
 }
 
 @media (max-width: 400px) {
+    .zoom img {
+        height: 30rem;
+    }
+
     .allSpecialItems {
-        width: 20.5rem;
+        width: 20rem;
         padding: 0;
         margin: 0;
     }
@@ -326,6 +330,7 @@
 }
 
 .collection-info-box h4 {
+    text-align: center;
     font-weight: 100;
     font-size: 2.8rem;
 }
