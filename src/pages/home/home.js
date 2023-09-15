@@ -1,15 +1,43 @@
 import './home.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+// Men collection images
+import collMenImg1 from '../../assets/img/1_40223.webp'
+import collMenImg2 from '../../assets/img/1_40247.webp'
+import collMenImg3 from '../../assets/img/1_40241.webp'
+import collMenImg4 from '../../assets/img/1_40354.webp'
+import collMenImg5 from '../../assets/img/1_40360.webp'
+import collMenImg6 from '../../assets/img/1_39848.webp'
+// women collection images
+import collWomImg1 from '../../assets/img/1_35533.webp'
+import collWomImg2 from '../../assets/img/1_36092.webp'
+import collWomImg3 from '../../assets/img/1_35475.webp'
+import collWomImg4 from '../../assets/img/1_35480.webp'
+import collWomImg5 from '../../assets/img/1_35538.webp'
+import collWomImg6 from '../../assets/img/1_35479.webp'
+// Footwear collection images
+import collFootImg1 from '../../assets/img/1_35949.webp'
+import collFootImg2 from '../../assets/img/1_35827.webp'
+import collFootImg3 from '../../assets/img/1_34639.webp'
+import collFootImg4 from '../../assets/img/1_32519.webp'
+import collFootImg5 from '../../assets/img/1_34471.webp'
+import collFootImg6 from '../../assets/img/1_31560.webp'
+// Accesories collection images
+import collAcceImg1 from '../../assets/img/1_38986.webp'
+import collAcceImg2 from '../../assets/img/1_39090.webp'
+import collAcceImg3 from '../../assets/img/1_39161.webp'
+import collAcceImg4 from '../../assets/img/1_179_1.webp'
+import collAcceImg5 from '../../assets/img/1_38728.webp'
+import collAcceImg6 from '../../assets/img/1_38735.webp'
 
 export const Home = () => {
 
-    const [img, setImg] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40223.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-    const [img2, setImg2] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40247.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-    const [img3, setImg3] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40241.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-    const [img4, setImg4] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40354.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-    const [img5, setImg5] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40360.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-    const [img6, setImg6] = useState("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39848.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+    const [img, setImg] = useState(collMenImg1)
+    const [img2, setImg2] = useState(collMenImg2)
+    const [img3, setImg3] = useState(collMenImg3)
+    const [img4, setImg4] = useState(collMenImg4)
+    const [img5, setImg5] = useState(collMenImg5)
+    const [img6, setImg6] = useState(collMenImg6)
 
     const [text, setText] = useState("Name")
     const [text2, setText2] = useState("Skulls Bart T-shirt")
@@ -19,12 +47,12 @@ export const Home = () => {
     const [text6, setText6] = useState("Bart Graffiti T-shirt")
 
     const handleClickMen = () => {
-        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40223.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40247.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40241.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40354.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40360.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39848.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg(collMenImg1)
+        setImg2(collMenImg2)
+        setImg3(collMenImg3)
+        setImg4(collMenImg4)
+        setImg5(collMenImg5)
+        setImg6(collMenImg6)
 
         setText("Skulls Bart T-shirt")
         setText2("Krusty T-shirt")
@@ -34,12 +62,12 @@ export const Home = () => {
         setText6("Bart Graffiti T-shirt")
     }
     const handleClickWomen = () => {
-        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35533.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36092.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35475.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35480.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35538.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35479.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg(collWomImg1)
+        setImg2(collWomImg2)
+        setImg3(collWomImg3)
+        setImg4(collWomImg4)
+        setImg5(collWomImg5)
+        setImg6(collWomImg6)
 
         setText("Stamped Sweatshirt")
         setText2("Nightgown Pink Angel")
@@ -49,12 +77,12 @@ export const Home = () => {
         setText6("Stamped T-shirt")
     }
     const handleClickFootwear = () => {
-        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35949.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35827.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34639.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_32519.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34471.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31560.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg(collFootImg1)
+        setImg2(collFootImg2)
+        setImg3(collFootImg3)
+        setImg4(collFootImg4)
+        setImg5(collFootImg5)
+        setImg6(collFootImg6)
 
         setText("Men's White Tennis")
         setText2("Women's White Tennis")
@@ -64,12 +92,12 @@ export const Home = () => {
         setText6("Men's White Tennis")
     }
     const handleClickAccessories = () => {
-        setImg("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38986.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg2("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39090.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg3("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39161.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg4("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_179_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg5("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38728.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
-        setImg6("https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38735.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds")
+        setImg(collAcceImg1)
+        setImg2(collAcceImg2)
+        setImg3(collAcceImg3)
+        setImg4(collAcceImg4)
+        setImg5(collAcceImg5)
+        setImg6(collAcceImg6)
 
         setText("Women's Square Lenses")
         setText2("Men's Oval Lenses")
