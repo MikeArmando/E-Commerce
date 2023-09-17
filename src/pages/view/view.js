@@ -160,26 +160,26 @@ export const View = () => {
         <>
             <section className='view-box'>
                 <div className='view-img-box'>
-                    <a href='#!'><img src={img}></img></a>
-                    <a href='#!'><img className='hidden-img-mobile' src={img2}></img></a>
-                    <a href='#!'><img className='hidden-img-mobile' src={img3}></img></a>
-                    <a href='#!'><img className='hidden-img-mobile' src={img4}></img></a>
-                    <a href='#!'><img className='hidden-img-mobile' src={img5}></img></a>
-                    <a href='#!'><img className='hidden-img-mobile' src={img6}></img></a>
+                    <a href='#!'><img src={img} alt=''></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img2} alt=''></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img3} alt=''></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img4} alt=''></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img5} alt=''></img></a>
+                    <a href='#!'><img className='hidden-img-mobile' src={img6} alt=''></img></a>
                 </div>
 
                 <div className='view-info-box'>
                     <p className='view-info-name'>Playera polo Slim Fit</p>
-                    <img src={images[favColor]} className='view-fav' onClick={favRedChange} alt={`Image ${favColor + 1}`}></img>
+                    <img src={images[favColor]} className='view-fav' onClick={favRedChange} alt={`${favColor + 1}`}></img>
                     <p>$39.00</p>
                     <p className='view-color'>{imgColorName}</p>
                     <div className='view-pro-img'>
                         <a href='#!' onClick={handleClickViewBlack}><div className={`view-img-border ${viewImgB ? 'clicked' : ''}`}
-                        ><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8a%2F05%2F8a0561cf9e80d09cec9d784aee18c9a691bccbe4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BMEN_TSHIRTSTANKS_POLO%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
-                        <a href='#!' onClick={handleClickViewCreem}><div className={`view-img-border ${viewImgB2 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F86%2F21%2F86217fddf680494152081271b9ad0d14c823dac7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
-                        <a href='#!' onClick={handleClickViewBrown}><div className={`view-img-border ${viewImgB3 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F2c%2F082ca2a959ce71f712aad616047a06b5d74c3af8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img></div></a>
+                        ><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8a%2F05%2F8a0561cf9e80d09cec9d784aee18c9a691bccbe4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BMEN_TSHIRTSTANKS_POLO%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img></div></a>
+                        <a href='#!' onClick={handleClickViewCreem}><div className={`view-img-border ${viewImgB2 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F86%2F21%2F86217fddf680494152081271b9ad0d14c823dac7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img></div></a>
+                        <a href='#!' onClick={handleClickViewBrown}><div className={`view-img-border ${viewImgB3 ? 'clicked' : ''}`}><img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F08%2F2c%2F082ca2a959ce71f712aad616047a06b5d74c3af8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img></div></a>
                     </div>
-                    <p className='comms'>COMMENTS (122)<img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img><img src={star}></img></p>
+                    <p className='comms'>COMMENTS (122)<img src={star} alt=''></img><img src={star} alt=''></img><img src={star} alt=''></img><img src={star} alt=''></img><img src={star} alt=''></img></p>
                     <p className='size-text'>Size</p>
                     <div className='chart-box'>
                         <a href='#!' onClick={backgroundToBlack} style={{ backgroundColor: backgroundColor, color: textColorBtn }}>XCH</a>

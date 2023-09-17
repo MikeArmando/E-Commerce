@@ -46,7 +46,7 @@ export const Cart = () => {
             <section className='cart-page-box'>
                 <div className='cart-items-box'>
                     <div className='cart-item-box' style={{ display: trashBtn ? 'flex' : 'none' }}>
-                        <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img>
+                        <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img>
                         <div className='cart-item-info'>
                             <div className='cart-name-box'>
                                 <p>Grey Sweatshirt</p>
@@ -61,7 +61,7 @@ export const Cart = () => {
                             <div className='fav-count-box'>
                                 <div className='cart-fav-box'>
                                     <a href='#!'>
-                                        <img src={images[favColor]} onClick={favRedChange} alt={`Image ${favColor + 1}`}>
+                                        <img src={images[favColor]} onClick={favRedChange} alt={`${favColor + 1}`}>
                                         </img>
                                     </a>
                                 </div>
@@ -79,7 +79,7 @@ export const Cart = () => {
                         </div>
                     </div>
                     <div className='cart-item-box' style={{ display: trashBtn2 ? 'flex' : 'none' }}>
-                        <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]'></img>
+                        <img src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8f%2F74%2F8f748f06a1cf49cf9cf1c83ff42f09b95be73898.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/fullscreen]' alt=''></img>
                         <div className='cart-item-info'>
                             <div className='cart-name-box'>
                                 <p>Grey Sweatshirt</p>
@@ -94,7 +94,7 @@ export const Cart = () => {
                             <div className='fav-count-box'>
                                 <div className='cart-fav-box'>
                                     <a href='#!'>
-                                        <img src={images[favColor2]} onClick={favRedChange2} alt={`Image ${favColor2 + 1}`}>
+                                        <img src={images[favColor2]} onClick={favRedChange2} alt={`${favColor2 + 1}`}>
                                         </img>
                                     </a>
                                 </div>
