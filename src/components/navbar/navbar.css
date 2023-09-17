@@ -11,10 +11,10 @@ nav {
 }
 
 nav label {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     font-size: 1.9rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
     margin-right: 0rem;
 }
 
@@ -97,11 +97,11 @@ nav a {
 
 .icon-right {
     position: absolute;
-    right: 4rem;
+    right: 8rem;
 }
 
 .nav-icon1 {
-    margin: .8rem .5rem;
+    margin: .8rem .8rem;
     height: 1.8rem;
     transition: all .5s;
 }

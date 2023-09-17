@@ -145,10 +145,10 @@
 }
 
 .cart-info div a {
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
-    letter-spacing: .2rem;
     background-color: black;
     border: 2px solid;
     padding: .8rem 1.5rem;

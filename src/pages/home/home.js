@@ -1,6 +1,7 @@
 import './home.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { useInView } from 'react-intersection-observer'
 // Men collection images
 import collMenImg1 from '../../assets/img/1_40223.webp'
 import collMenImg2 from '../../assets/img/1_40247.webp'
@@ -114,6 +115,19 @@ export const Home = () => {
         });
     }
 
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+    });
+    const [ref2, inView2] = useInView({
+        triggerOnce: true,
+    });
+    const [ref3, inView3] = useInView({
+        triggerOnce: true,
+    });
+    const [ref4, inView4] = useInView({
+        triggerOnce: true,
+    });
+
     return (
         <>
             <section className="background1">
@@ -125,10 +139,10 @@ export const Home = () => {
 
             <label id="view-products"></label>
 
-            <section className="special-background">
+            <section className='special-background'>
                 <h2>New Clothes, New Passion.</h2>
-                <div className="special-box">
-                    <div id='hidden' className="zoom zoom-item1">
+                <div className='special-box'>
+                    <div id='hidden' className={`zoom zoom-item1 ${inView ? 'fade-in' : ''}`} ref={ref}>
                         <div className="item1"><Link to="/view" onClick={scrollToTop}><img className="item-img1 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35755.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
@@ -138,7 +152,7 @@ export const Home = () => {
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
-                    <div id='hidden' className="zoom zoom-item2">
+                    <div id='hidden' className={`zoom zoom-item2 ${inView2 ? 'fade-in' : ''}`} ref={ref2}>
                         <div className="item2"><Link to="/view" onClick={scrollToTop}><img className="item-img2 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37378.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
@@ -148,7 +162,7 @@ export const Home = () => {
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
-                    <div id='hidden' className="zoom zoom-item3">
+                    <div id='hidden' className={`zoom zoom-item3 ${inView3 ? 'fade-in' : ''}`} ref={ref3}>
                         <div className="item3"><Link to="/view" onClick={scrollToTop}><img className="item-img3 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34250.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>
@@ -158,7 +172,7 @@ export const Home = () => {
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
                     </div>
-                    <div id='hidden' className="zoom zoom-item4">
+                    <div id='hidden' className={`zoom zoom-item4 ${inView4 ? 'fade-in' : ''}`} ref={ref4}>
                         <div className="item4"><Link to="/view" onClick={scrollToTop}><img className="item-img4 allSpecialItems"
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36163.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt=""></img></Link></div>

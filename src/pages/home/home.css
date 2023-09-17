@@ -1,7 +1,7 @@
 .background1 {
-    background-image: url(/src/assets/img/hero-home.jpg);
+    background-image: url(/src/assets/img/pexels-moose-photos-1036627.jpg);
     height: 100vh;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -14,30 +14,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 0rem 3rem;
+    margin: 0 3rem;
 }
 
 .intro-text {
-    max-width: 30rem;
-    font-family: 'Poppins', sans-serif;
+    max-width: 40rem;
+    font-family: 'Lato', sans-serif;
     font-weight: 100;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    color: rgba(0, 0, 0, 0.747);
+    animation: up .8s;
 }
 
 .intro-btn {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
     text-decoration: none;
     background-color: white;
     color: black;
-    padding: .5rem 1.5rem;
-    font-size: 1.1rem;
+    padding: .7rem 1.7rem;
+    font-size: 1rem;
     transition: all .4s ease-in-out;
-}
-
-.intro-btn:hover {
-    background-color: black;
-    color: white;
 }
 
 @media (max-width: 450px) {
@@ -70,10 +68,9 @@
 /* Special */
 
 .special-background {
-    height: 220vh;
+    height: 250vh;
     position: relative;
     margin: 7rem 0rem;
-    background-color: white;
 }
 
 .special-backgroundM {
@@ -82,6 +79,7 @@
 }
 
 .special-background h2 {
+    font-family: 'Nunito', sans-serif;
     font-weight: 100;
     display: flex;
     justify-content: center;
@@ -123,28 +121,36 @@
     height: 35rem;
     width: 22rem;
     position: absolute;
-    top: 18%;
+    top: 19%;
     left: 12%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
 }
 
 .zoom-item2 {
     position: absolute;
     top: 5%;
     right: 12%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
 }
 
 .zoom-item3 {
     position: absolute;
-    bottom: 0%;
+    top: 67%;
     right: 50%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
 }
 
 .zoom-item4 {
     height: 36rem;
     width: 22rem;
     position: absolute;
-    bottom: 16%;
+    top: 50%;
     right: 15%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
 }
 
 .zoom .item1 {
@@ -221,6 +227,9 @@
     text-decoration: underline;
 }
 
+.fade-in {
+    opacity: 1;
+}
 
 @media (max-width: 1300px) {
 
@@ -402,7 +411,6 @@
         justify-content: center;
     }
 }
-
 
 @media (max-width: 400px) {
     .collection-img-box div a img {
