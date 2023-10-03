@@ -14,7 +14,7 @@ nav label {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
     font-size: 1.9rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
     margin-right: 0rem;
 }
 
@@ -97,7 +97,7 @@ nav a {
 
 .icon-right {
     position: absolute;
-    right: 8rem;
+    right: 4rem;
 }
 
 .nav-icon1 {
@@ -161,10 +161,10 @@ nav a {
     border-radius: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     nav label {
         font-size: 1.3rem;
-        margin-left: 1.5rem;
+        margin-left: 1rem;
     }
 
     .toggle-button {

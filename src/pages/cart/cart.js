@@ -51,7 +51,7 @@ export const Cart = () => {
                             <div className='cart-name-box'>
                                 <p>Grey Sweatshirt</p>
                                 <p>$29.00</p>
-                                <img src={trash} onClick={eliminateBtn}></img>
+                                <img src={trash} alt='' onClick={eliminateBtn}></img>
                             </div>
                             <div className='cart-pro-info'>
                                 <p>ID Product: 105541</p>
@@ -84,7 +84,7 @@ export const Cart = () => {
                             <div className='cart-name-box'>
                                 <p>Grey Sweatshirt</p>
                                 <p>$29.00</p>
-                                <img src={trash} onClick={eliminateBtn2}></img>
+                                <img src={trash} alt='' onClick={eliminateBtn2}></img>
                             </div>
                             <div className='cart-pro-info'>
                                 <p>ID Product: 105541</p>

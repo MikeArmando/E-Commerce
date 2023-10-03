@@ -1,5 +1,5 @@
 import './view.css'
-import { useState, useTransition } from 'react'
+import { useState } from 'react'
 import star from '../../assets/img/star.png'
 import fav from '../../assets/img/icon-fav.png'
 import favRed from '../../assets/img/Untitled design.png'

@@ -245,10 +245,16 @@
     align-items: center;
     margin: 2rem 0rem;
     width: 100%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
 }
 
 .gender-collection-row img {
     height: 45rem;
+}
+
+.fade-in {
+    opacity: 1;
 }
 
 @media (max-width: 960px) {

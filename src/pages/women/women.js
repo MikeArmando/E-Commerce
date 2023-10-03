@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useInView } from 'react-intersection-observer'
 
 export const Women = () => {
     const scrollToTop = () => {
@@ -7,6 +8,13 @@ export const Women = () => {
             behavior: 'instant',
         });
     }
+
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+    });
+    const [ref2, inView2] = useInView({
+        triggerOnce: true,
+    });
 
     return (
         <>
@@ -120,7 +128,7 @@ export const Women = () => {
 
             <section className="gender-collection-box">
                 <div className="gender-collection-row">
-                    <div className="gender-clothes-img">
+                    <div className={`gender-clothes-img ${inView ? 'fade-in' : ''}`} ref={ref}>
                         <Link to="/view" onClick={scrollToTop}><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35711.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
                             alt="#!"></img>
@@ -130,7 +138,7 @@ export const Women = () => {
                             <a href="#!">View Collection</a>
                         </div>
                     </div>
-                    <div className="gender-clothes-img gender-clothes-img-rev">
+                    <div className={`gender-clothes-img gender-clothes-img-rev ${inView2 ? 'fade-in' : ''}`} ref={ref2}>
                         <div>
                             <h3>T-shirts licenses</h3>
                             <a href="#!">View Collection</a>
