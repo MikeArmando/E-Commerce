@@ -314,11 +314,11 @@
 
 @media (max-width: 400px) {
     .zoom img {
-        height: 29rem;
+        height: 25rem;
     }
 
     .allSpecialItems {
-        width: 18rem;
+        width: 16rem;
         padding: 0;
         margin: 0;
     }

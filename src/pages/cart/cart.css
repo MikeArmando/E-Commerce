@@ -109,6 +109,22 @@
     }
 }
 
+@media (max-width: 500px) {
+    .cart-item-box {
+        flex-direction: row;
+        margin: 1rem 2rem;
+    }
+
+    .cart-page-box {
+        grid-template-columns: 1fr;
+        padding: 10rem 0;
+    }
+
+    .cart-pro-info {
+        gap: 1rem;
+    }
+}
+
 
 /* cart info */
 
