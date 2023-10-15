@@ -49,7 +49,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <label>&copy; Montano Valencia Mike Armando 2023 | Todos los Derechos Reservados</label>
+                <label>&copy; 2023 Montano Valencia Mike Armando| All rights reserved.</label>
             </footer>
         </div>
     )
