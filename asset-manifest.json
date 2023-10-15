@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-Commerce/static/css/main.1c6f124b.css",
-    "main.js": "/E-Commerce/static/js/main.289f97ac.js",
+    "main.css": "/E-Commerce/static/css/main.41e3b135.css",
+    "main.js": "/E-Commerce/static/js/main.85629df0.js",
     "static/js/787.7b445511.chunk.js": "/E-Commerce/static/js/787.7b445511.chunk.js",
     "static/media/pexels-moose-photos-1036627.jpg": "/E-Commerce/static/media/pexels-moose-photos-1036627.abb57aa4beea42b2ab1a.jpg",
     "static/media/girl-intro.avif": "/E-Commerce/static/media/girl-intro.15d3a482b967272aae4e.avif",
@@ -35,12 +35,12 @@
     "static/media/1_31560.webp": "/E-Commerce/static/media/1_31560.634f0f2ee1ebda07c897.webp",
     "static/media/1_38735.webp": "/E-Commerce/static/media/1_38735.fffc90768ba38840eeaa.webp",
     "index.html": "/E-Commerce/index.html",
-    "main.1c6f124b.css.map": "/E-Commerce/static/css/main.1c6f124b.css.map",
-    "main.289f97ac.js.map": "/E-Commerce/static/js/main.289f97ac.js.map",
+    "main.41e3b135.css.map": "/E-Commerce/static/css/main.41e3b135.css.map",
+    "main.85629df0.js.map": "/E-Commerce/static/js/main.85629df0.js.map",
     "787.7b445511.chunk.js.map": "/E-Commerce/static/js/787.7b445511.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c6f124b.css",
-    "static/js/main.289f97ac.js"
+    "static/css/main.41e3b135.css",
+    "static/js/main.85629df0.js"
   ]
 }
