@@ -2,34 +2,41 @@ import './home.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
+
+// Feature Images
+import FeatureOne from '../../../src/assets/img/home/1_35755.webp'
+import FeatureTwo from '../../../src/assets/img/home/1_37378.webp'
+import FeatureThree from '../../../src/assets/img/home/1_34250.webp'
+import FeatureFour from '../../../src/assets/img/home/1_36163.webp'
+
 // Men collection images
-import collMenImg1 from '../../assets/img/1_40223.webp'
-import collMenImg2 from '../../assets/img/1_40247.webp'
-import collMenImg3 from '../../assets/img/1_40241.webp'
-import collMenImg4 from '../../assets/img/1_40354.webp'
-import collMenImg5 from '../../assets/img/1_40360.webp'
-import collMenImg6 from '../../assets/img/1_39848.webp'
+import collMenImg1 from '../../assets/img/home/1_40223.webp'
+import collMenImg2 from '../../assets/img/home/1_40247.webp'
+import collMenImg3 from '../../assets/img/home/1_40241.webp'
+import collMenImg4 from '../../assets/img/home/1_40354.webp'
+import collMenImg5 from '../../assets/img/home/1_40360.webp'
+import collMenImg6 from '../../assets/img/home/1_39848.webp'
 // women collection images
-import collWomImg1 from '../../assets/img/1_35533.webp'
-import collWomImg2 from '../../assets/img/1_36092.webp'
-import collWomImg3 from '../../assets/img/1_35475.webp'
-import collWomImg4 from '../../assets/img/1_35480.webp'
-import collWomImg5 from '../../assets/img/1_35538.webp'
-import collWomImg6 from '../../assets/img/1_35479.webp'
+import collWomImg1 from '../../assets/img/home/1_35533.webp'
+import collWomImg2 from '../../assets/img/home/1_36092.webp'
+import collWomImg3 from '../../assets/img/home/1_35475.webp'
+import collWomImg4 from '../../assets/img/home/1_35480.webp'
+import collWomImg5 from '../../assets/img/home/1_35538.webp'
+import collWomImg6 from '../../assets/img/home/1_35479.webp'
 // Footwear collection images
-import collFootImg1 from '../../assets/img/1_35949.webp'
-import collFootImg2 from '../../assets/img/1_35827.webp'
-import collFootImg3 from '../../assets/img/1_34639.webp'
-import collFootImg4 from '../../assets/img/1_32519.webp'
-import collFootImg5 from '../../assets/img/1_34471.webp'
-import collFootImg6 from '../../assets/img/1_31560.webp'
+import collFootImg1 from '../../assets/img/home/1_35949.webp'
+import collFootImg2 from '../../assets/img/home/1_35827.webp'
+import collFootImg3 from '../../assets/img/home/1_34639.webp'
+import collFootImg4 from '../../assets/img/home/1_32519.webp'
+import collFootImg5 from '../../assets/img/home/1_34471.webp'
+import collFootImg6 from '../../assets/img/home/1_31560.webp'
 // Accesories collection images
-import collAcceImg1 from '../../assets/img/1_38986.webp'
-import collAcceImg2 from '../../assets/img/1_39090.webp'
-import collAcceImg3 from '../../assets/img/1_39161.webp'
-import collAcceImg4 from '../../assets/img/1_179_1.webp'
-import collAcceImg5 from '../../assets/img/1_38728.webp'
-import collAcceImg6 from '../../assets/img/1_38735.webp'
+import collAcceImg1 from '../../assets/img/home/1_38986.webp'
+import collAcceImg2 from '../../assets/img/home/1_39090.webp'
+import collAcceImg3 from '../../assets/img/home/1_39161.webp'
+import collAcceImg4 from '../../assets/img/home/1_179_1.webp'
+import collAcceImg5 from '../../assets/img/home/1_38728.webp'
+import collAcceImg6 from '../../assets/img/home/1_38735.webp'
 
 export const Home = () => {
 
@@ -40,12 +47,12 @@ export const Home = () => {
     const [img5, setImg5] = useState(collMenImg5)
     const [img6, setImg6] = useState(collMenImg6)
 
-    const [text, setText] = useState("Name")
-    const [text2, setText2] = useState("Skulls Bart T-shirt")
-    const [text3, setText3] = useState("Krusty T-shirt")
-    const [text4, setText4] = useState("Krusty Sequence T-shirt")
-    const [text5, setText5] = useState("Krusty Car T-shirt")
-    const [text6, setText6] = useState("Bart Graffiti T-shirt")
+    const [text, setText] = useState("Black Polo")
+    const [text2, setText2] = useState("White Over Shirt")
+    const [text3, setText3] = useState("White Flower Shirt")
+    const [text4, setText4] = useState("Pale Green Jacket")
+    const [text5, setText5] = useState("Grafic Design Sweater")
+    const [text6, setText6] = useState("Beige Over Shirt")
 
     const handleClickMen = () => {
         setImg(collMenImg1)
@@ -55,12 +62,12 @@ export const Home = () => {
         setImg5(collMenImg5)
         setImg6(collMenImg6)
 
-        setText("Skulls Bart T-shirt")
-        setText2("Krusty T-shirt")
-        setText3("Krusty Sequence T-shirt")
-        setText4("Itchy & Scratchy T-shirt")
-        setText5("Krusty Car T-shirt")
-        setText6("Bart Graffiti T-shirt")
+        setText("Black Polo")
+        setText2("White Over Shirt")
+        setText3("White Flower Shirt")
+        setText4("Pale Green Jacket")
+        setText5("Grafic Design Sweater")
+        setText6("Beige Over Shirt")
     }
     const handleClickWomen = () => {
         setImg(collWomImg1)
@@ -100,12 +107,12 @@ export const Home = () => {
         setImg5(collAcceImg5)
         setImg6(collAcceImg6)
 
-        setText("Women's Square Lenses")
-        setText2("Men's Oval Lenses")
-        setText3("Men's Chilling Cap")
-        setText4("Dragon Cap for Men")
-        setText5("LA Men's Cap")
-        setText6("Square Bag")
+        setText("Flower Square Bag")
+        setText2("Green Dino")
+        setText3("Basic Baige Backpack")
+        setText4("Classic White Men's Cap")
+        setText5("Simple Design Wallet")
+        setText6("Purple Square Lenses")
     }
 
     const scrollToTop = () => {
@@ -144,7 +151,7 @@ export const Home = () => {
                 <div className='special-box'>
                     <div id='hidden' className={`zoom zoom-item1 ${inView ? 'fade-in' : ''}`} ref={ref}>
                         <div className="item1"><Link to="/view" onClick={scrollToTop}><img className="item-img1 allSpecialItems"
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35755.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={FeatureOne}
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box1">
                             <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name1'>Denim Bleach Jacket</Link>
@@ -154,7 +161,7 @@ export const Home = () => {
                     </div>
                     <div id='hidden' className={`zoom zoom-item2 ${inView2 ? 'fade-in' : ''}`} ref={ref2}>
                         <div className="item2"><Link to="/view" onClick={scrollToTop}><img className="item-img2 allSpecialItems"
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37378.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={FeatureTwo}
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box2">
                             <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name2'>Jogger Felpa Cargo</Link>
@@ -164,7 +171,7 @@ export const Home = () => {
                     </div>
                     <div id='hidden' className={`zoom zoom-item3 ${inView3 ? 'fade-in' : ''}`} ref={ref3}>
                         <div className="item3"><Link to="/view" onClick={scrollToTop}><img className="item-img3 allSpecialItems"
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34250.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={FeatureThree}
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box3">
                             <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name3'>Oxford Sweatshirt</Link>
@@ -174,10 +181,10 @@ export const Home = () => {
                     </div>
                     <div id='hidden' className={`zoom zoom-item4 ${inView4 ? 'fade-in' : ''}`} ref={ref4}>
                         <div className="item4"><Link to="/view" onClick={scrollToTop}><img className="item-img4 allSpecialItems"
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36163.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={FeatureFour}
                             alt=""></img></Link></div>
                         <div className="btnall-box btnall-box4">
-                            <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name4'>Beige Bomber Jacket</Link>
+                            <Link to="/view" onClick={scrollToTop} className='special-item-name special-item-name4'>White Bomber Jacket</Link>
                             <p>$35.00</p>
                             <Link className="btnall" to="/view" onClick={scrollToTop}>Buy Now</Link>
                         </div>
