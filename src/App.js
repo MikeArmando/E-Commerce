@@ -1,7 +1,9 @@
 import '../src/assets/global.css';
 import { Route, Routes } from 'react-router-dom';
+// Components
 import { Navbar } from './components/navbar/navbar'
 import { Footer } from './components/footer/footer'
+// Pages
 import { Home } from '../src/pages/home/home'
 import { Men } from '../src/pages/men/men'
 import { Women } from '../src/pages/women/women'
@@ -18,8 +20,8 @@ const App = () => {
 
       <><Navbar /></>
 
-      <Routes path="/E-Commerce" element={Home}>
-        <Route exact path='/E-Commerce' element={<Home />} />
+      <Routes path="/Fit-and-Casual" element={Home}>
+        <Route exact path='/Fit-and-Casual' element={<Home />} />
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         <Route path="/kids" element={<Kids />} />

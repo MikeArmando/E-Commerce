@@ -37,7 +37,7 @@ export const Navbar = () => {
 
     return (
         <nav>
-            <label><Link to="/E-Commerce" onClick={scrollToTop}>Fit & Casual</Link></label>
+            <label><Link to="/Fit-and-Casual" onClick={scrollToTop}>Fit & Casual</Link></label>
             <ul className={`navbar-ul ${isCartOpen ? 'active' : ''}`}>
                 <li><Link to="/men" className="le" onClick={scrollToTop}>Men</Link>
                     <ul className="sub-menu-box">
