@@ -2,6 +2,8 @@
 
 Fit & Casual is a online clothing store, build with simplicity in mind while still having a good structure. In here you can view plenty of products with difrent categories.
 
+- Live Demo: [Fit & Casual](https://mikearmando.github.io/E-Commerce/)
+
 ## Features
 
 - Browse and search for clothing items by category, brand, or keywords.
