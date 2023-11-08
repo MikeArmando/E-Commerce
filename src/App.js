@@ -20,8 +20,8 @@ const App = () => {
 
       <><Navbar /></>
 
-      <Routes path="/Fit-and-Casual" element={Home}>
-        <Route exact path='/Fit-and-Casual' element={<Home />} />
+      <Routes path="/fit-and-casual" element={Home}>
+        <Route exact path='/fit-and-casual' element={<Home />} />
         <Route path="/men" element={<Men />} />
         <Route path="/women" element={<Women />} />
         <Route path="/kids" element={<Kids />} />
