@@ -17,9 +17,7 @@ import { View } from '../src/pages/view/view'
 const App = () => {
   return (
     <div className="App">
-
       <><Navbar /></>
-
       <Routes path="/fit-and-casual" element={Home}>
         <Route exact path='/fit-and-casual' element={<Home />} />
         <Route path="/men" element={<Men />} />
@@ -31,9 +29,7 @@ const App = () => {
         <Route path="/view" element={<View />} />
         <Route path="/account" element={<Account />} />
       </Routes>
-
       <><Footer /></>
-
     </div>
   );
 }
