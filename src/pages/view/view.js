@@ -3,8 +3,10 @@ import { useState } from 'react'
 import star from '../../assets/img/star.png'
 import fav from '../../assets/img/icon-fav.png'
 import favRed from '../../assets/img/Untitled design.png'
+import { Link } from 'react-router-dom'
 
-export const View = () => {
+export const View = ({ addToCart }) => {
+
     // Sets the border in the images
     const [viewImgB, setViewImgB] = useState(true);
     const [viewImgB2, setViewImgB2] = useState(false);
@@ -145,12 +147,11 @@ export const View = () => {
 
     // toggles the fav icon
     const [favColor, setfavColor] = useState(0)
-
     const images = [
         fav,
         favRed,
     ];
-
+    // Chnages de icon to red (favored)
     const favRedChange = () => {
         // Increment the index to display the next image
         setfavColor((prevIndex) => (prevIndex + 1) % images.length);
@@ -167,7 +168,6 @@ export const View = () => {
                     <a href='#!'><img className='hidden-img-mobile' src={img5} alt=''></img></a>
                     <a href='#!'><img className='hidden-img-mobile' src={img6} alt=''></img></a>
                 </div>
-
                 <div className='view-info-box'>
                     <p className='view-info-name'>Playera polo Slim Fit</p>
                     <img src={images[favColor]} className='view-fav' onClick={favRedChange} alt={`${favColor + 1}`}></img>
@@ -189,7 +189,7 @@ export const View = () => {
                         <a href='#!' onClick={backgroundToBlack5} style={{ backgroundColor: backgroundColor5, color: textColorBtn5 }}>XG</a>
                     </div>
                     <a href='#!' className='chart-text'>Size chart</a>
-                    <a href='#!' className='add-cart'>Add to cart</a>
+                    <Link to='/cart' className='add-cart'>Add to cart</Link>
                 </div>
             </section>
         </>

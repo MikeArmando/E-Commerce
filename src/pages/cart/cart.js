@@ -8,11 +8,9 @@ export const Cart = () => {
     // eliminates the item
     const [trashBtn, setTrashBtn] = useState(true);
     const [trashBtn2, setTrashBtn2] = useState(true);
-
     const eliminateBtn = () => {
         setTrashBtn(false);
     };
-
     const eliminateBtn2 = () => {
         setTrashBtn2(false);
     };
@@ -20,22 +18,18 @@ export const Cart = () => {
     // toggles the fav icon
     const [favColor, setfavColor] = useState(0)
     const [favColor2, setfavColor2] = useState(0)
-
     const images = [
         fav,
         favRed,
     ];
-
     const images2 = [
         fav,
         favRed,
     ];
-
     const favRedChange = () => {
         // Increment the index to display the next image
         setfavColor((prevIndex) => (prevIndex + 1) % images.length);
     };
-
     const favRedChange2 = () => {
         // Increment the index to display the next image
         setfavColor2((prevIndex) => (prevIndex + 1) % images2.length);
@@ -126,7 +120,6 @@ export const Cart = () => {
                         <a href='#!'>CheckOut</a>
                     </div>
                 </div>
-
             </section>
         </>
     )
