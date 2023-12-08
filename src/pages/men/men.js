@@ -1,6 +1,20 @@
 import './gender.css'
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
+// Category Images
+import tShirtCat from '../../../src/assets/img/men/c (3).webp'
+import JacketCat from '../../../src/assets/img/men/c (2).webp'
+import ShirtCat from '../../../src/assets/img/men/c.webp'
+import pantCat from '../../../src/assets/img/men/c (4).webp'
+import SweaterCat from '../../../src/assets/img/men/c (5).webp'
+import underwearCat from '../../../src/assets/img/men/c (6).webp'
+import JoggerCat from '../../../src/assets/img/men/c (7).webp'
+import shortCat from '../../../src/assets/img/men/c (8).webp'
+// Feature Images
+import featurePro1 from '../../../src/assets/img/men/fe.webp'
+import featurePro2 from '../../../src/assets/img/men/fe2.webp'
+import featurePro3 from '../../../src/assets/img/men/fe3.webp'
+import featurePro4 from '../../../src/assets/img/men/fe4.webp'
 
 export const Men = () => {
     const scrollToTop = () => {
@@ -34,7 +48,7 @@ export const Men = () => {
                 <div className="gender-gate-row">
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40225.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={tShirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">T-Shirts</a></label>
@@ -42,7 +56,7 @@ export const Men = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_331_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={ShirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Shirts</a></label>
@@ -50,7 +64,7 @@ export const Men = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39931.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={pantCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Pants</a></label>
@@ -58,7 +72,7 @@ export const Men = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39299.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={JacketCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">jackets</a></label>
@@ -66,15 +80,15 @@ export const Men = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39849.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={SweaterCat}
                             alt=""></img></a>
                         <div className='category-center'>
-                            <label><a href="#!">sweatshirts</a></label>
+                            <label><a href="#!">Sweaters</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39948.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={JoggerCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">joggers</a></label>
@@ -82,15 +96,15 @@ export const Men = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38236.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={shortCat}
                             alt=""></img></a>
                         <div className='category-center'>
-                            <label><a href="#!">Swimsuits</a></label>
+                            <label><a href="#!">Shorts</a></label>
                         </div>
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_290_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={underwearCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Underwear</a></label>
@@ -105,22 +119,22 @@ export const Men = () => {
                 </div>
                 <div className="man-feature-row">
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35885.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro1}
                         alt=""></img></Link>
                         <Link className='feature-name' to="/view" onClick={scrollToTop}>T-shirt Absence Of Fear</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_26424.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro4}
                         alt=""></img></Link>
                         <Link className='feature-name' to="/view" onClick={scrollToTop}>Jeans Slim Tapered Dark</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35382.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro3}
                         alt=""></img></Link>
                         <Link className='feature-name' to="/view" onClick={scrollToTop}>Jogger Cargo</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_32640.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro2}
                         alt=""></img></Link>
                         <Link className='feature-name' to="/view" onClick={scrollToTop}>Grey Denim Jacket</Link>
                     </div>
