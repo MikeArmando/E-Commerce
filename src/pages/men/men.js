@@ -15,6 +15,19 @@ import featurePro1 from '../../../src/assets/img/men/fe.webp'
 import featurePro2 from '../../../src/assets/img/men/fe2.webp'
 import featurePro3 from '../../../src/assets/img/men/fe3.webp'
 import featurePro4 from '../../../src/assets/img/men/fe4.webp'
+// Collection Images
+import collection1 from '../../assets/img/men/col1.avif'
+import collection2 from '../../assets/img/men/col2.avif'
+// Jean Images
+import jean1 from '../../assets/img/men/j1.webp'
+import jean2 from '../../assets/img/men/j2.webp'
+import jean3 from '../../assets/img/men/j3.webp'
+import jean4 from '../../assets/img/men/j4.webp'
+import jean5 from '../../assets/img/men/j5.webp'
+import jean6 from '../../assets/img/men/j6.webp'
+import jean7 from '../../assets/img/men/j7.webp'
+// Shirts Images
+
 
 export const Men = () => {
     const scrollToTop = () => {
@@ -145,21 +158,19 @@ export const Men = () => {
                 <div className="gender-collection-row">
                     <div className={`gender-clothes-img ${inView ? 'fade-in' : ''}`} ref={ref}>
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_147_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={collection1}
                             alt="#!"></img>
                         </Link>
                         <div>
-                            <h3>Simpsons</h3>
-                            <a href="#!">View Collection</a>
+                            <h3>Collection</h3>
                         </div>
                     </div>
                     <div className={`gender-clothes-img gender-clothes-img-rev ${inView2 ? 'fade-in' : ''}`} ref={ref2}>
                         <div>
-                            <h3>Bombers</h3>
-                            <a href="#!">View Collection</a>
+                            <h3>Holiday</h3>
                         </div>
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34939.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={collection2}
                             alt=""></img>
                         </Link>
                     </div>
@@ -171,7 +182,7 @@ export const Men = () => {
                 <div className="gender-clothes-row">
                     <div className="gender-main-item">
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34512.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={jean1}
                             alt=""></img></Link>
                         <label><Link to="/view" onClick={scrollToTop}>Slim Stone Jeans Medium</Link></label>
                         <label className='main-item-price'>$29</label>
@@ -179,7 +190,7 @@ export const Men = () => {
                     <div className="gender-item-box">
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36889.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean2}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Skinny Jeans Washed Black</Link></label>
@@ -188,7 +199,7 @@ export const Men = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_3_2.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean3}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Jeans Ultra Skinny Remounted</Link></label>
@@ -197,7 +208,7 @@ export const Men = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_33388.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean4}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Washed Black Denim Jacket</Link></label>
@@ -206,7 +217,7 @@ export const Men = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_31716.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean5}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Jeans Slim Destructions</Link></label>
@@ -215,7 +226,7 @@ export const Men = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_29390.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean6}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Straight Bleach Jeans</Link></label>
@@ -224,7 +235,7 @@ export const Men = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_29391.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean7}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Straight Mounted Jeans</Link></label>
@@ -236,69 +247,67 @@ export const Men = () => {
             </section>
 
             <section className="gender-clothes-box">
-                <h3>Underwear</h3>
+                <h3>Shirts</h3>
                 <div className="gender-clothes-row">
-
                     <div className="gender-main-item">
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_17140.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={jean1}
                             alt=""></img></Link>
-                        <label><Link to="/view" onClick={scrollToTop}>Tank Top</Link></label>
+                        <label><Link to="/view" onClick={scrollToTop}>Slim Stone Jeans Medium</Link></label>
                         <label className='main-item-price'>$29</label>
                     </div>
-
                     <div className="gender-item-box">
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_17141.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean2}
                                 alt=""></img></Link>
                             <div>
-                                <label><Link to="/view" onClick={scrollToTop}>Tank Top</Link></label>
+                                <label><Link to="/view" onClick={scrollToTop}>Skinny Jeans Washed Black</Link></label>
                                 <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_76_3.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean3}
                                 alt=""></img></Link>
                             <div>
-                                <label><Link to="/view" onClick={scrollToTop}>2 Men's Boxer Pack</Link></label>
+                                <label><Link to="/view" onClick={scrollToTop}>Jeans Ultra Skinny Remounted</Link></label>
                                 <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35387.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean4}
                                 alt=""></img></Link>
                             <div>
-                                <label><Link to="/view" onClick={scrollToTop}>2 Pack Boxer Brush for Men</Link></label>
+                                <label><Link to="/view" onClick={scrollToTop}>Washed Black Denim Jacket</Link></label>
                                 <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37128.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean5}
                                 alt=""></img></Link>
                             <div>
-                                <label><Link to="/view" onClick={scrollToTop}>1 Pack Men's Socks</Link></label>
+                                <label><Link to="/view" onClick={scrollToTop}>Jeans Slim Destructions</Link></label>
                                 <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35936.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean6}
                                 alt=""></img></Link>
                             <div>
-                                <label><Link to="/view" onClick={scrollToTop}>3 Men's Short Boxer Pack</Link></label>
+                                <label><Link to="/view" onClick={scrollToTop}>Straight Bleach Jeans</Link></label>
                                 <label>$29</label>
                             </div>
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37130.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={jean7}
                                 alt=""></img></Link>
                             <div>
-                                <label><Link to="/view" onClick={scrollToTop}>1 Pack Men's Socks</Link></label>
+                                <label><Link to="/view" onClick={scrollToTop}>Straight Mounted Jeans</Link></label>
                                 <label>$29</label>
                             </div>
                         </div>

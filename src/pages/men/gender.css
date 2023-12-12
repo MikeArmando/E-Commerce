@@ -226,58 +226,17 @@
     margin: 17rem 0;
 }
 
-.gender-collection-box h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+.gender-collection-box h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
 }
 
 .gender-collection-row {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.gender-clothes-img {
-    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0rem;
-    width: 100%;
-    opacity: 0;
-    transition: opacity 1.5s ease;
 }
-
-.gender-collection-row img {
-    height: 45rem;
-}
-
-.fade-in {
-    opacity: 1;
-}
-
-@media (max-width: 960px) {
-    .gender-collection-box {
-        margin: 15rem 0;
-    }
-
-    .gender-clothes-img {
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .gender-clothes-img-rev {
-        flex-direction: column-reverse;
-    }
-}
-
-@media (max-width: 660px) {
-    .gender-collection-row img {
-        height: 30rem;
-    }
-}
-
 
 
 /* Clothing items */
@@ -316,7 +275,7 @@
 .gender-clothes-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0rem 5rem;
+    margin: 0rem 2rem;
 }
 
 .gender-main-item {
@@ -325,6 +284,10 @@
     justify-content: center;
     align-items: center;
     margin: 0rem 1rem;
+}
+
+.gender-main-item img {
+    height: 50rem;
 }
 
 .main-item-price {
