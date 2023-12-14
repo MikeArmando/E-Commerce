@@ -1,5 +1,22 @@
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
+// Category Images
+import topCat from '../../../src/assets/img/women/c1.webp'
+import blouseCat from '../../../src/assets/img/women/c2.webp'
+import tShirtCat from '../../../src/assets/img/women/c3.webp'
+import skirtCat from '../../../src/assets/img/women/c4.webp'
+import dressCat from '../../../src/assets/img/women/c5.webp'
+import jacketCat from '../../../src/assets/img/women/c6.webp'
+import jeanCat from '../../../src/assets/img/women/c7.webp'
+import shortCat from '../../../src/assets/img/women/c8.webp'
+// Feature Images
+import featurePro1 from '../../../src/assets/img/women/fe1.webp'
+import featurePro2 from '../../../src/assets/img/women/fe2.webp'
+import featurePro3 from '../../../src/assets/img/women/fe3.webp'
+import featurePro4 from '../../../src/assets/img/women/fe4.webp'
+// Collection Images
+import collection1 from '../../assets/img/women/coll1.jpeg'
+import collection2 from '../../assets/img/women/coll2.jpeg'
 
 export const Women = () => {
     const scrollToTop = () => {
@@ -8,7 +25,6 @@ export const Women = () => {
             behavior: 'instant',
         });
     }
-
     const [ref, inView] = useInView({
         triggerOnce: true,
     });
@@ -27,13 +43,12 @@ export const Women = () => {
                     </div>
                 </a>
             </section>
-
             <section className="gender-gate-box">
                 <h2>Search By Category</h2>
                 <div className="gender-gate-row">
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38288.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={topCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Tops</a></label>
@@ -41,7 +56,7 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40193.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={blouseCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Blouses</a></label>
@@ -49,7 +64,7 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40042.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={tShirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">T-Shirts</a></label>
@@ -57,7 +72,7 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39827.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={skirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Skirts</a></label>
@@ -65,7 +80,7 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40237.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={dressCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Dresses</a></label>
@@ -73,7 +88,7 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_39674.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={jacketCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">jackets</a></label>
@@ -81,7 +96,7 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40209.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={jeanCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Jeans</a></label>
@@ -89,72 +104,66 @@ export const Women = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38231.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={shortCat}
                             alt=""></img></a>
                         <div className='category-center'>
-                            <label><a href="#!">Shorts</a></label>
+                            <label><a href="#!">Lingerie</a></label>
                         </div>
                     </div>
                 </div>
             </section>
-
             <section className="man-feature-box">
                 <div>
                     <h2>Featured Products</h2>
                 </div>
                 <div className="man-feature-row">
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_150_4.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro1}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Table skirt</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_107_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro2}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Flare Metallic Pants</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35276.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro3}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Woven overcoat</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37314.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={featurePro4}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Bikini Animal Print</Link>
                     </div>
                 </div>
             </section>
-
             <section className="gender-collection-box">
                 <div className="gender-collection-row">
                     <div className={`gender-clothes-img ${inView ? 'fade-in' : ''}`} ref={ref}>
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35711.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={collection1}
                             alt="#!"></img>
                         </Link>
                         <div>
-                            <h3>Monster High</h3>
-                            <a href="#!">View Collection</a>
+                            <h3>Collection</h3>
                         </div>
                     </div>
                     <div className={`gender-clothes-img gender-clothes-img-rev ${inView2 ? 'fade-in' : ''}`} ref={ref2}>
                         <div>
-                            <h3>T-shirts licenses</h3>
-                            <a href="#!">View Collection</a>
+                            <h3>Holiday</h3>
                         </div>
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_53_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={collection2}
                             alt=""></img>
                         </Link>
                     </div>
                 </div>
             </section>
-
             <section className="gender-clothes-box">
                 <h3>Sportive</h3>
                 <div className="gender-clothes-row">
-
                     <div className="gender-main-item">
                         <Link to="/view" onClick={scrollToTop}><img
                             src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_16232.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
@@ -162,7 +171,6 @@ export const Women = () => {
                         <label><Link to="/view" onClick={scrollToTop}>Sport Top Black</Link></label>
                         <label>$29</label>
                     </div>
-
                     <div className="gender-item-box">
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
@@ -221,9 +229,8 @@ export const Women = () => {
                     </div>
                 </div>
             </section>
-
             <section className="gender-clothes-box">
-                <h3>Lingerie</h3>
+                <h3>Shorts</h3>
                 <div className="gender-clothes-row">
 
                     <div className="gender-main-item">
