@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "fit-and-casual"
-  }
+    "default": "mike-armando",
+    "mike-armando": "mike-armando"
+  },
+  "targets": {},
+  "etags": {}
 }

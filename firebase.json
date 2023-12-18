@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "fit-and-casual",
+    "site": "fit-and-casual-shop",
     "public": "build",
     "ignore": [
       "firebase.json",
