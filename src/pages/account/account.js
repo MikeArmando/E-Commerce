@@ -1,16 +1,19 @@
 import './account.css'
+import { useState } from 'react'
 
 export const Account = () => {
     return (
         <div className='Account'>
             <section className="account-body">
                 <div className="acoount-box">
-                    <h1>Login</h1>
-                    <p>Enter your email and password</p>
-                    <input type="text" placeholder="Email"></input>
+                    <h1>Create Account</h1>
+                    <p>Enter your user information</p>
+                    <input type="text" placeholder="Name"></input>
+                    <input type="text" placeholder="Phone"></input>
+                    <input type="email" placeholder="Email"></input>
                     <input type="password" placeholder="Password"></input>
-                    <button><a className="signinLink" href="#!">Sign in</a></button>
-                    <p>Don't have an account? <a className="createOneLink" href="#!">Create one</a></p>
+                    <button><a className="signinLink" href="#!">Register</a></button>
+                    <p>Already have an account? <a className="createOneLink" href="#!">Login</a></p>
                 </div>
             </section>
         </div>

@@ -17,6 +17,22 @@ import featurePro4 from '../../../src/assets/img/women/fe4.webp'
 // Collection Images
 import collection1 from '../../assets/img/women/coll1.jpeg'
 import collection2 from '../../assets/img/women/coll2.jpeg'
+// Pants Images
+import pantsPro1 from '../../../src/assets/img/women/p1.webp'
+import pantsPro2 from '../../../src/assets/img/women/p2.webp'
+import pantsPro3 from '../../../src/assets/img/women/p3.webp'
+import pantsPro4 from '../../../src/assets/img/women/p4.webp'
+import pantsPro5 from '../../../src/assets/img/women/p5.webp'
+import pantsPro6 from '../../../src/assets/img/women/p6.webp'
+import pantsPro7 from '../../../src/assets/img/women/p7.webp'
+// Shorts Images
+import shortPro1 from '../../../src/assets/img/women/s1.webp'
+import shortPro2 from '../../../src/assets/img/women/s2.webp'
+import shortPro3 from '../../../src/assets/img/women/s3.webp'
+import shortPro4 from '../../../src/assets/img/women/s4.webp'
+import shortPro5 from '../../../src/assets/img/women/s5.webp'
+import shortPro6 from '../../../src/assets/img/women/s6.webp'
+import shortPro7 from '../../../src/assets/img/women/s7.webp'
 
 export const Women = () => {
     const scrollToTop = () => {
@@ -162,11 +178,11 @@ export const Women = () => {
                 </div>
             </section>
             <section className="gender-clothes-box">
-                <h3>Sportive</h3>
+                <h3>Pants</h3>
                 <div className="gender-clothes-row">
                     <div className="gender-main-item">
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_16232.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={pantsPro1}
                             alt=""></img></Link>
                         <label><Link to="/view" onClick={scrollToTop}>Sport Top Black</Link></label>
                         <label>$29</label>
@@ -174,7 +190,7 @@ export const Women = () => {
                     <div className="gender-item-box">
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_29140.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={pantsPro2}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Bone Biker</Link></label>
@@ -183,7 +199,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_29146.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={pantsPro3}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Leggins Capri</Link></label>
@@ -192,7 +208,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_16206.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={pantsPro4}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Black Sports Shorts</Link></label>
@@ -201,7 +217,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_16223.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={pantsPro5}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Sport Top Crew Neck</Link></label>
@@ -210,7 +226,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_29144.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={pantsPro6}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Leggings Capri Pink</Link></label>
@@ -219,7 +235,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_16204.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={pantsPro7}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Jasper Sports Shorts</Link></label>
@@ -235,7 +251,7 @@ export const Women = () => {
 
                     <div className="gender-main-item">
                         <Link to="/view" onClick={scrollToTop}><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36092.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={shortPro1}
                             alt=""></img></Link>
                         <label><Link to="/view" onClick={scrollToTop}>Nightgown Pink Angel</Link></label>
                         <label>$29</label>
@@ -244,7 +260,7 @@ export const Women = () => {
                     <div className="gender-item-box">
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37312.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={shortPro2}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Cotton Brassiere</Link></label>
@@ -253,7 +269,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36086.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={shortPro3}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Black Thong</Link></label>
@@ -262,7 +278,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37459.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={shortPro4}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Marbled bikini</Link></label>
@@ -271,7 +287,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_69_1.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={shortPro5}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Bikini Suaje</Link></label>
@@ -280,7 +296,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34367.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={shortPro6}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Washed Khaki Pants</Link></label>
@@ -289,7 +305,7 @@ export const Women = () => {
                         </div>
                         <div className="gender-items">
                             <Link to="/view" onClick={scrollToTop}><img
-                                src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_37481.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                                src={shortPro7}
                                 alt=""></img></Link>
                             <div>
                                 <label><Link to="/view" onClick={scrollToTop}>Top Seamless</Link></label>
