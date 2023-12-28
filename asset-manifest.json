@@ -1,19 +1,23 @@
 {
   "files": {
     "main.css": "/fit-and-casual/static/css/main.19453e78.css",
-    "main.js": "/fit-and-casual/static/js/main.72bc44f8.js",
+    "main.js": "/fit-and-casual/static/js/main.9414798f.js",
     "static/js/787.7b445511.chunk.js": "/fit-and-casual/static/js/787.7b445511.chunk.js",
     "static/media/pexels-moose-photos-1036627.jpg": "/fit-and-casual/static/media/pexels-moose-photos-1036627.abb57aa4beea42b2ab1a.jpg",
     "static/media/coll2.jpeg": "/fit-and-casual/static/media/coll2.08a0da7c5552d0701cf5.jpeg",
+    "static/media/cat1.webp": "/fit-and-casual/static/media/cat1.b8e35c2659e9e8277958.webp",
     "static/media/c6.webp": "/fit-and-casual/static/media/c6.94840f1550f59c09287f.webp",
+    "static/media/cat2.webp": "/fit-and-casual/static/media/cat2.94e69a377a5ecc24c3a1.webp",
     "static/media/coll1.jpeg": "/fit-and-casual/static/media/coll1.dd5d9dd54e25df47d81c.jpeg",
     "static/media/c (3).webp": "/fit-and-casual/static/media/c (3).87f55d608b9f1a7c0b42.webp",
     "static/media/c (2).webp": "/fit-and-casual/static/media/c (2).e05ecd1d3de29972c4c3.webp",
+    "static/media/cat5.webp": "/fit-and-casual/static/media/cat5.ac499014c07ddea3ef80.webp",
     "static/media/c (5).webp": "/fit-and-casual/static/media/c (5).0e82bc0d8286c3dacd4c.webp",
     "static/media/hmgoepprod.jpeg": "/fit-and-casual/static/media/hmgoepprod.bb7f20f706f8cd907e0e.jpeg",
     "static/media/fe4.webp": "/fit-and-casual/static/media/fe4.4bd501347488b916f85f.webp",
     "static/media/fe.webp": "/fit-and-casual/static/media/fe.dbbcbd1b26febe52b3d7.webp",
     "static/media/s5.webp": "/fit-and-casual/static/media/s5.3ef9c61b3351f1528997.webp",
+    "static/media/cat4.webp": "/fit-and-casual/static/media/cat4.71ff35522a9b8b1b0865.webp",
     "static/media/fe3.webp": "/fit-and-casual/static/media/fe3.e9862ec4cd001a04d28f.webp",
     "static/media/hmgoepprod (1).jpeg": "/fit-and-casual/static/media/hmgoepprod (1).d08a038da9cc62728316.jpeg",
     "static/media/c7.webp": "/fit-and-casual/static/media/c7.f31436527aaa34820805.webp",
@@ -21,6 +25,7 @@
     "static/media/fe2.webp": "/fit-and-casual/static/media/fe2.3c58e26daa593e7bb39d.webp",
     "static/media/girl-intro.avif": "/fit-and-casual/static/media/girl-intro.15d3a482b967272aae4e.avif",
     "static/media/j5.webp": "/fit-and-casual/static/media/j5.1b09c860174576e14eed.webp",
+    "static/media/cat3.webp": "/fit-and-casual/static/media/cat3.faec7667fe3410fe379a.webp",
     "static/media/p1.webp": "/fit-and-casual/static/media/p1.331c85e94bc085728ce7.webp",
     "static/media/p7.webp": "/fit-and-casual/static/media/p7.b9b8cf6220c020e851f8.webp",
     "static/media/c3.webp": "/fit-and-casual/static/media/c3.40c419e7d6459a97da88.webp",
@@ -34,10 +39,12 @@
     "static/media/c4.webp": "/fit-and-casual/static/media/c4.38358041085e2ae02008.webp",
     "static/media/c (7).webp": "/fit-and-casual/static/media/c (7).e9862ec4cd001a04d28f.webp",
     "static/media/p4.webp": "/fit-and-casual/static/media/p4.16a7cab0aa967e1fd3ef.webp",
+    "static/media/cat8.webp": "/fit-and-casual/static/media/cat8.72bb0133433ac4f992c5.webp",
     "static/media/c (6).webp": "/fit-and-casual/static/media/c (6).3bdc31ae045e6144b3cb.webp",
     "static/media/fe1.webp": "/fit-and-casual/static/media/fe1.f44f25979e4386fd2d89.webp",
     "static/media/s3.webp": "/fit-and-casual/static/media/s3.22564b7d56362172e7f5.webp",
     "static/media/c5.webp": "/fit-and-casual/static/media/c5.f9be2cde1358e3e6aa76.webp",
+    "static/media/cat6.webp": "/fit-and-casual/static/media/cat6.e45c50563d17075bfcfd.webp",
     "static/media/c.webp": "/fit-and-casual/static/media/c.ba809afdf07c9b0ad4ae.webp",
     "static/media/s7.webp": "/fit-and-casual/static/media/s7.0078dba6730c7c3c59a0.webp",
     "static/media/p3.webp": "/fit-and-casual/static/media/p3.e892054dd5db807036bd.webp",
@@ -53,6 +60,7 @@
     "static/media/s1.webp": "/fit-and-casual/static/media/s1.00f12016c2bde372d3ed.webp",
     "static/media/1_34250.webp": "/fit-and-casual/static/media/1_34250.e43616a92de8827dc4f0.webp",
     "static/media/1_40241.webp": "/fit-and-casual/static/media/1_40241.f73f8841876438540e02.webp",
+    "static/media/cat7.webp": "/fit-and-casual/static/media/cat7.5fba4663de80e2875414.webp",
     "static/media/1_35533.webp": "/fit-and-casual/static/media/1_35533.5b6b03a770c18ec0c028.webp",
     "static/media/s4.webp": "/fit-and-casual/static/media/s4.c0f3cb27593616af866b.webp",
     "static/media/1_35538.webp": "/fit-and-casual/static/media/1_35538.06f836680903264e17e3.webp",
@@ -88,11 +96,11 @@
     "static/media/1_38735.webp": "/fit-and-casual/static/media/1_38735.fffc90768ba38840eeaa.webp",
     "index.html": "/fit-and-casual/index.html",
     "main.19453e78.css.map": "/fit-and-casual/static/css/main.19453e78.css.map",
-    "main.72bc44f8.js.map": "/fit-and-casual/static/js/main.72bc44f8.js.map",
+    "main.9414798f.js.map": "/fit-and-casual/static/js/main.9414798f.js.map",
     "787.7b445511.chunk.js.map": "/fit-and-casual/static/js/787.7b445511.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19453e78.css",
-    "static/js/main.72bc44f8.js"
+    "static/js/main.9414798f.js"
   ]
 }
