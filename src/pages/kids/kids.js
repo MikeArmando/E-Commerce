@@ -1,6 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './kids.css'
+// Category Images
+import tShirtCat from '../../../src/assets/img/kids/cat1.webp'
+import ShirtCat from '../../../src/assets/img/kids/cat2.webp'
+import pantsCat from '../../../src/assets/img/kids/cat3.webp'
+import jacketCat from '../../../src/assets/img/kids/cat4.webp'
+import sweatshirtCat from '../../../src/assets/img/kids/cat5.webp'
+import joggerCat from '../../../src/assets/img/kids/cat6.webp'
+import SwimsuitCat from '../../../src/assets/img/kids/cat7.webp'
+import ShoeCat from '../../../src/assets/img/kids/cat8.webp'
+
+
 
 export const Kids = () => {
     const scrollToTop = () => {
@@ -27,7 +38,7 @@ export const Kids = () => {
                 <div className="gender-gate-row">
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40150.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={tShirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">T-Shirts</a></label>
@@ -35,7 +46,7 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40175.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={ShirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Shirts</a></label>
@@ -43,7 +54,7 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_36835.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={pantsCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Pants</a></label>
@@ -51,7 +62,7 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40167.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={jacketCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">jackets</a></label>
@@ -59,7 +70,7 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40147.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={sweatshirtCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">sweatshirts</a></label>
@@ -67,7 +78,7 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40166.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={joggerCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">joggers</a></label>
@@ -75,7 +86,7 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_35074.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={SwimsuitCat}
                             alt=""></img></a>
                         <div className='category-center'>
                             <label><a href="#!">Swimsuits</a></label>
@@ -83,10 +94,10 @@ export const Kids = () => {
                     </div>
                     <div className="gender-gate-items">
                         <a className='image-effect' href="#!"><img
-                            src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_34293.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                            src={ShoeCat}
                             alt=""></img></a>
                         <div className='category-center'>
-                            <label><a href="#!">Underwear</a></label>
+                            <label><a href="#!">Shoes</a></label>
                         </div>
                     </div>
                 </div>
