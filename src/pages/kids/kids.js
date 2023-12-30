@@ -2,16 +2,32 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './kids.css'
 // Category Images
-import tShirtCat from '../../../src/assets/img/kids/cat1.webp'
-import ShirtCat from '../../../src/assets/img/kids/cat2.webp'
-import pantsCat from '../../../src/assets/img/kids/cat3.webp'
+import tShirtCat from '../../../src/assets/img/kids/cat2.webp'
+import ShirtCat from '../../../src/assets/img/kids/cat3.webp'
+import pantsCat from '../../../src/assets/img/kids/cat1.webp'
 import jacketCat from '../../../src/assets/img/kids/cat4.webp'
 import sweatshirtCat from '../../../src/assets/img/kids/cat5.webp'
-import joggerCat from '../../../src/assets/img/kids/cat6.webp'
-import SwimsuitCat from '../../../src/assets/img/kids/cat7.webp'
+import joggerCat from '../../../src/assets/img/kids/cat7.webp'
+import SwimsuitCat from '../../../src/assets/img/kids/cat6.webp'
 import ShoeCat from '../../../src/assets/img/kids/cat8.webp'
-
-
+// Feature Images
+import feature1 from '../../../src/assets/img/kids/f1.webp'
+import feature2 from '../../../src/assets/img/kids/f2.webp'
+import feature3 from '../../../src/assets/img/kids/f3.webp'
+import feature4 from '../../../src/assets/img/kids/f4.webp'
+// Items Images
+import item1 from '../../../src/assets/img/kids/item1.webp'
+import item2 from '../../../src/assets/img/kids/item2.webp'
+import item3 from '../../../src/assets/img/kids/item3.webp'
+import item4 from '../../../src/assets/img/kids/item4.webp'
+import item5 from '../../../src/assets/img/kids/item5.webp'
+import item6 from '../../../src/assets/img/kids/item6.webp'
+import item7 from '../../../src/assets/img/kids/item7.webp'
+import item8 from '../../../src/assets/img/kids/item8.webp'
+import item9 from '../../../src/assets/img/kids/item9.webp'
+import item10 from '../../../src/assets/img/kids/item10.webp'
+import item11 from '../../../src/assets/img/kids/item11.webp'
+import item12 from '../../../src/assets/img/kids/item12.webp'
 
 export const Kids = () => {
     const scrollToTop = () => {
@@ -109,22 +125,22 @@ export const Kids = () => {
                 </div>
                 <div className="man-feature-row">
                     <div><a href="#!"><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40149.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={feature1}
                         alt=""></img></a>
                         <a href="#!">Printed Shirt</a>
                     </div>
                     <div><a href="#!"><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40153.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={feature2}
                         alt=""></img></a>
                         <a href="#!">Short Sleeve Printed T-Shirt</a>
                     </div>
                     <div><a href="#!"><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40165.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={feature3}
                         alt=""></img></a>
                         <a href="#!">Black Cargo</a>
                     </div>
                     <div><a href="#!"><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40169.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={feature4}
                         alt=""></img></a>
                         <a href="#!">Bright Red vest</a>
                     </div>
@@ -137,73 +153,73 @@ export const Kids = () => {
                 </div>
                 <div className="kids-pro-row">
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40151.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item1}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40150.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item2}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40166.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item3}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Pants</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40147.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item4}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40171.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item5}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40153.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item6}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40152.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item7}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40173.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item8}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shorts</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_38341.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item9}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shorts</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40146.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item10}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40160.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item11}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
                     </div>
                     <div><Link to="/view" onClick={scrollToTop}><img
-                        src="https://www.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_40158.jpg?width=600&height=800&canvas=600,800&optimize=low&bg-color=255,255,255&fit=bounds"
+                        src={item12}
                         alt=""></img></Link>
                         <Link to="/view" onClick={scrollToTop}>Classic Shirt</Link>
                         <Link to="/view" onClick={scrollToTop}>$10.50</Link>
